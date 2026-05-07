@@ -1,0 +1,853 @@
+{
+  "shared": {
+    "table": {
+      "pageSize": {
+        "label": "عدد الصفوف"
+      }
+    },
+    "placeholders": {
+      "error": "حدث خطأ أثناء تحميل البيانات",
+      "empty": "لم يتم العثور على بيانات",
+      "copy": "نسخ إلى الحافظة",
+      "copied": "تم النسخ إلى الحافظة",
+      "failedToCopy": "فشل النسخ إلى الحافظة",
+      "fullscreen": "دخول وضع ملئ الشاشة",
+      "exitFullscreen": "خروج من وضع ملئ الشاشة"
+    },
+    "asyncCombobox": {
+      "loading": "جاري التحميل...",
+      "loadingMore": "جاري تحميل المزيد...",
+      "empty": "لا توجد نتائج",
+      "error": "فشل التحميل",
+      "retry": "إعادة المحاولة"
+    },
+    "fileUploader": {
+      "label": "رفع {type}",
+      "placeholder": "رفع {type}",
+      "image": "صورة",
+      "images": "صور",
+      "fileUploadRules": "قم باختيار ملف او صورة لرفعها, يجب ان لا يزيد حجمه عن 3 ميغابايت",
+      "file": "ملف",
+      "files": "ملفات",
+      "uploading": "جاري الرفع...",
+      "upload": "رفع",
+      "cancel": "إلغاء",
+      "error": "حدث خطأ أثناء الرفع",
+      "success": "تم الرفع بنجاح",
+      "maxFilesError": "لا يمكن رفع أكثر من {maxFiles} ملف"
+    }
+  },
+  "mainPage": {
+    "welcomeMessage": "{dayTime} الخير ايها المستخدم",
+    "welcomeMessageWithName": "{dayTime} الخير يا {fullname}",
+    "greeting": "مرحبا بك في نظام ادارة المدن الخاصة بك",
+    "button": "انقر للبدء",
+    "morning": "صباح",
+    "afternoon": "صباح",
+    "night": "مساء",
+    "support": "تواصل مع الدعم"
+  },
+  "pwaInstallPrompt": {
+    "title": "تثبيت التطبيق",
+    "description": "أضفه إلى الشاشة الرئيسية لتجربة أفضل.",
+    "action": "تثبيت"
+  },
+  "navigation": {
+    "admins": {
+      "manageAdmins": "إدارة المشرفين",
+      "rolesPermissions": "الأدوار والصلاحيات"
+    },
+    "home": "الرئيسية",
+    "dashboard": "لوحة التحكم",
+    "settings": "الإعدادات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "loggingOut": "جارٍ تسجيل الخروج..."
+  },
+  "sidebar": {
+    "appName": "انترلينكد سيتي",
+    "groups": {
+      "dashboard": "لوحة التحكم",
+      "surveillance": "المراقبة",
+      "operations": "العمليات",
+      "citizens": "المواطنون",
+      "guests": "الزوار",
+      "hr": "الموارد البشرية",
+      "housing": "الإسكان",
+      "contractsFinance": "العقود والمالية",
+      "financial": "المالية",
+      "vehicles": "المركبات",
+      "businesses": "الأعمال",
+      "services": "الخدمات",
+      "definitions": "التعريفات",
+      "settings": "الإعدادات",
+      "documents": "المستندات"
+    },
+    "items": {
+      "home": "الرئيسية",
+      "services": "الخدمات",
+      "definitions": "التعريفات",
+      "serviceBundles": "حزم الخدمات",
+      "serviceDefinitions": "تعريفات الخدمات",
+      "unitDefinitions": "تعريفات الوحدات",
+      "analytics": "التحليلات",
+      "reports": "التقارير",
+      "contractReports": "تقارير العقود",
+      "housingReports": "تقارير الإسكان",
+      "financialReports": "التقارير المالية",
+      "ticketReports": "تقارير الشكاوي",
+      "usersReports": "تقارير المستخدمون",
+      "users": "المستخدمون",
+      "blocks": "المجمعات",
+      "familyMembers": "أفراد العائلة",
+      "rolesPermissions": "الأدوار والصلاحيات",
+      "maps": "الخرائط",
+      "liveSurveillance": "المراقبة المباشرة",
+      "gatesAndCameras": "البوابات والكاميرات",
+      "banners": "البانرات",
+      "notifications": "الإشعارات",
+      "addresses": "العناوين",
+      "sectors": "القطاعات",
+      "buildings": "المباني",
+      "houses": "المنازل",
+      "floors": "الطوابق",
+      "units": "الوحدات",
+      "unitTypes": "أنواع الوحدات",
+      "contracts": "العقود",
+      "rentContracts": "عقود الإيجار",
+      "ownershipContracts": "عقود التمليك",
+      "installmentContracts": "عقود التقسيط",
+      "accounting": "قسم المحاسبة",
+      "ledger": "المعاملات",
+      "accounts": "الحسابات",
+      "statistics": "الإحصائيات",
+      "exchangeRates": "أسعار الصرف",
+      "invoices": "الفواتير",
+      "payments": "المدفوعات",
+      "crm": "إدارة العلاقات",
+      "billing": "الفوترة",
+      "companies": "الشركات",
+      "contacts": "جهات الاتصال",
+      "companyDebts": "ديون الشركات",
+      "companyPayments": "مدفوعات الشركات",
+      "hr": "الموارد البشرية",
+      "employees": "الموظفون",
+      "departments": "الأقسام",
+      "salaries": "الرواتب",
+      "employeePayments": "مدفوعات الموظفين",
+      "vehicles": "المركبات",
+      "businesses": "الأعمال",
+      "tickets": "الشكاوي",
+      "auditLogs": "سجلات التدقيق",
+      "systemSettings": "إعدادات النظام",
+      "housing": "الإسكان",
+      "userDocuments": "المستندات الشخصية",
+      "businessDocuments": "المستندات التجارية",
+      "adminsRoles": "المشرفون والأدوار",
+      "admins": "المشرفون",
+      "guests": "الزوار"
+    }
+  },
+  "admins": {
+    "title": "المشرفون",
+    "description": "إدارة المشرفين في النظام",
+    "button": "إضافة مشرف",
+    "search": {
+      "placeholder": "ابحث عن المشرفين بالاسم أو البريد الإلكتروني أو الحالة",
+      "validation": {
+        "tooShort": "يرجى إدخال حرفين على الأقل",
+        "tooLong": "يجب ألا يتجاوز البحث 50 حرفًا",
+        "invalid": "مصطلح بحث غير صالح"
+      }
+    },
+    "table": {
+      "columns": {
+        "columns": "الأعمدة",
+        "fullname": "الاسم الكامل",
+        "email": "البريد الإلكتروني",
+        "role": "الدور",
+        "isActive": "الحالة",
+        "actions": "الإجراءات"
+      },
+      "placeholders": {
+        "empty": {
+          "title": "لم يتم العثور على مشرفين",
+          "description": "جرّب تغيير البحث."
+        },
+        "error": {
+          "title": "تعذّر تحميل المشرفين",
+          "description": "يرجى المحاولة مرة أخرى."
+        }
+      },
+      "actions": {
+        "edit": "تعديل المشرف",
+        "activate": "تفعيل المشرف",
+        "deactivate": "تعطيل المشرف",
+        "activating": "جارٍ التفعيل...",
+        "deactivating": "جارٍ التعطيل..."
+      }
+    },
+    "status": {
+      "active": "مفعل",
+      "inactive": "غير مفعل"
+    },
+    "actions": {
+      "changePassword": "تغيير كلمة المرور"
+    },
+    "dialogs": {
+      "delete": {
+        "title": "حذف المشرف",
+        "description": "سيتم حذف حساب المشرف {fullname} نهائيًا.",
+        "warning": "سيفقد هذا المشرف إمكانية الوصول إلى لوحة التحكم ولن يتمكن من تسجيل الدخول مرة أخرى.",
+        "confirmation": {
+          "label": "اكتب تأكيد الحذف للتأكيد.",
+          "placeholder": "اكتب تأكيد الحذف",
+          "token": "تأكيد الحذف"
+        },
+        "cancel": "إلغاء",
+        "submit": "حذف",
+        "submitting": "جارٍ الحذف..."
+      },
+      "password": {
+        "title": "تغيير كلمة المرور لـ {name}",
+        "description": "قم بتعيين كلمة مرور جديدة لـ {email}.",
+        "trigger": "تغيير كلمة المرور",
+        "input": {
+          "label": "كلمة المرور الجديدة",
+          "placeholder": "أدخل كلمة مرور قوية"
+        },
+        "requirements": {
+          "length": "ثمانية أحرف على الأقل",
+          "uppercase": "تحتوي على حرف كبير",
+          "number": "تحتوي على رقم",
+          "symbol": "تحتوي على رمز"
+        },
+        "submit": "تحديث كلمة المرور",
+        "submitting": "جارٍ التحديث..."
+      }
+    },
+    "addSheet": {
+      "title": "إضافة مشرف",
+      "description": "إنشاء حساب مشرف جديد",
+      "submit": "إنشاء مشرف",
+      "submitting": "جارٍ إنشاء المشرف...",
+      "toasts": {
+        "success": "تم إنشاء المشرف بنجاح",
+        "error": "فشل في إنشاء المشرف"
+      },
+      "fields": {
+        "fullName": {
+          "label": "الاسم الكامل",
+          "placeholder": "أدخل الاسم الكامل"
+        },
+        "email": {
+          "label": "البريد الإلكتروني",
+          "placeholder": "أدخل البريد الإلكتروني"
+        },
+        "phoneNumber": {
+          "label": "رقم الهاتف",
+          "placeholder": "أدخل رقم الهاتف (اختياري)"
+        },
+        "password": {
+          "label": "كلمة المرور",
+          "placeholder": "أدخل كلمة مرور قوية"
+        },
+        "profilePhoto": {
+          "label": "الصورة الشخصية"
+        },
+        "isActive": {
+          "label": "مفعل",
+          "description": "السماح لهذا المشرف بتسجيل الدخول واستخدام لوحة التحكم"
+        },
+        "role": {
+          "label": "الدور",
+          "placeholder": "اختر الدور",
+          "empty": "لا توجد أدوار"
+        }
+      },
+      "validation": {
+        "required": "{field} مطلوب",
+        "minLength": "يجب ألا يقل {field} عن {min} أحرف",
+        "maxLength": "يجب ألا يتجاوز {field} {max} حرفًا",
+        "invalidEmail": "يرجى إدخال بريد إلكتروني صالح",
+        "password": {
+          "minLength": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+          "maxLength": "يجب ألا تتجاوز كلمة المرور 64 حرفًا",
+          "uppercase": "يجب أن تحتوي كلمة المرور على حرف كبير",
+          "lowercase": "يجب أن تحتوي كلمة المرور على حرف صغير",
+          "number": "يجب أن تحتوي كلمة المرور على رقم",
+          "symbol": "يجب أن تحتوي كلمة المرور على رمز"
+        },
+        "fieldNames": {
+          "fullName": "الاسم الكامل",
+          "email": "البريد الإلكتروني",
+          "phoneNumber": "رقم الهاتف",
+          "password": "كلمة المرور",
+          "role": "الدور"
+        }
+      }
+    },
+    "editSheet": {
+      "title": "تعديل المشرف",
+      "description": "تحديث بيانات المشرف",
+      "submit": "تحديث المشرف",
+      "submitting": "جارٍ تحديث المشرف...",
+      "trigger": "Edit admin"
+    },
+    "toasts": {
+      "delete": {
+        "success": "تم حذف المشرف بنجاح",
+        "error": "فشل في حذف المشرف"
+      },
+      "update": {
+        "success": "تم تعديل المشرف بنجاح",
+        "error": "فشل في تعديل المشرف"
+      },
+      "status": {
+        "activate": {
+          "success": "تم تفعيل المشرف بنجاح",
+          "error": "فشل في تفعيل المشرف"
+        },
+        "deactivate": {
+          "success": "تم تعطيل المشرف بنجاح",
+          "error": "فشل في تعطيل المشرف"
+        }
+      },
+      "password": {
+        "success": "تم تحديث كلمة المرور بنجاح",
+        "error": "فشل في تحديث كلمة المرور"
+      }
+    }
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "الصفحة",
+    "of": "من",
+    "total": "الإجمالي"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحبا بك مرة أخرى!",
+      "description": "تسجيل الدخول لنظامك للاستمرار",
+      "submit": "تسجيل الدخول",
+      "dontHaveAccount": "ليس لديك حساب؟",
+      "signUp": "تسجيل",
+      "byClickingContinue": "بالنقر على الاستمرار، فإنت توافق على",
+      "termsOfService": "الشروط والأحكام ",
+      "and": "و",
+      "privacyPolicy": "سياسة الخصوصية ",
+      "emailPlaceholder": "مثال@البريد.com",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "loadingText": "جار تسجيل الدخول...",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "البريد الإلكتروني غير صالح",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordInvalid": "كلمة المرور غير صالحة",
+      "passwordMinLength": "يجب أن يكون كلمة المرور على الأقل {minLength} حرف",
+      "error": "الرجاء التحقق من البريد الإلكتروني وكلمة المرور",
+      "logout": "تسجيل الخروج",
+      "loggingOut": "جار تسجيل الخروج..."
+    },
+    "disabledAccount": {
+      "title": "تم تعطيل الحساب",
+      "description": "تم تعطيل حسابك، ولم يعد بإمكانك الوصول إلى لوحة التحكم.\nفي حال كنت تعتقد أن هذا الإجراء قد تم عن طريق الخطأ، يرجى التواصل مع فريق الدعم لإعادة تفعيل الحساب.",
+      "warning": "تم رفض الوصول: الحساب غير نشط.",
+      "backToLogin": "العودة الى تسجيل الدخول",
+      "redirecting": "جاري التحويل..."
+    }
+  },
+  "roles": {
+    "page": {
+      "title": "الأدوار والصلاحيات",
+      "description": "إدارة الأدوار والتخطيط لدعم الصلاحيات"
+    },
+    "tabs": {
+      "roles": "الأدوار",
+      "permissions": "الصلاحيات"
+    },
+    "list": {
+      "title": "الأدوار الحالية",
+      "empty": "لا توجد أدوار حتى الآن",
+      "error": "حدث خطأ أثناء تحميل الأدوار",
+      "admins": "مشرف(ون)",
+      "actions": {
+        "edit": "إعادة تسمية الدور",
+        "delete": "حذف الدور"
+      }
+    },
+    "create": {
+      "button": "إضافة دور",
+      "dialog": {
+        "title": "إنشاء دور جديد",
+        "description": "تحدد الأدوار الوصول إلى أقسام النظام المختلفة.",
+        "nameLabel": "اسم الدور",
+        "namePlaceholder": "أدخل اسم الدور",
+        "submit": "إنشاء الدور",
+        "submitting": "جارٍ الإنشاء...",
+        "cancel": "إلغاء"
+      }
+    },
+    "assignPermissions": {
+      "button": "تعيين الصلاحيات",
+      "dialog": {
+        "title": "تعيين الصلاحيات",
+        "description": "تعيين الصلاحيات للدور.",
+        "submit": "حفظ الصلاحيات",
+        "submitting": "جارٍ الحفظ...",
+        "cancel": "إلغاء",
+        "error": "فشل تحميل الصلاحيات",
+        "empty": "لا توجد صلاحيات متاحة"
+      },
+      "permissions": {
+        "selectAll": "تحديد الكل",
+        "selectAllPermissions": "تحديد جميع الصلاحيات",
+        "actions": {
+          "read": "عرض وقراءة البيانات",
+          "write": "إنشاء وتعديل البيانات",
+          "delete": "إزالة وحذف البيانات"
+        },
+        "resources": {
+          "accounting": "المحاسبة",
+          "user": "المستخدم",
+          "admin": "المشرف",
+          "banner": "بانر",
+          "family": "العائلة",
+          "category": "الفئة",
+          "sector": "القطاع",
+          "building": "المبنى",
+          "floor": "الطابق",
+          "block": "المجمع",
+          "address": "العنوان",
+          "unit": "الوحدة",
+          "camera": "الكاميرا",
+          "contract": "العقد",
+          "company": "الشركة",
+          "contact": "جهة الاتصال",
+          "department": "القسم",
+          "departmentmember": "عضو القسم",
+          "employee": "الموظف",
+          "exchangerate": "سعر الصرف",
+          "guest": "الزائر",
+          "rentcontract": "عقد الإيجار",
+          "ownershipcontract": "عقد الملكية",
+          "installmentcontract": "عقد التقسيط",
+          "invoice": "الفاتورة",
+          "map": "الخريطة",
+          "payment": "الدفع",
+          "salary": "الراتب",
+          "salarypayment": "دفعة راتب",
+          "ticket": "الشكاوي",
+          "service": "الخدمة",
+          "notification": "الإشعار",
+          "business": "الأعمال",
+          "transaction": "المعاملة",
+          "transfer": "تحويل",
+          "wallet": "المحفظة",
+          "vehicle": "المركبة",
+          "file": "الملف",
+          "documents": "المستندات",
+          "config": "الإعدادات",
+          "preferences": "التفضيلات",
+          "auditlog": "سجل التدقيق"
+        }
+      }
+    },
+    "edit": {
+      "dialog": {
+        "title": "إعادة تسمية الدور",
+        "description": "تحديث اسم الدور.",
+        "submit": "تحديث الدور",
+        "submitting": "جارٍ التحديث..."
+      }
+    },
+    "delete": {
+      "dialog": {
+        "title": "حذف الدور",
+        "description": "سيتم حذف الدور {name} نهائيًا.",
+        "warning": "إذا كان هناك مشرفون مرتبطون بهذا الدور، فسيفقدون الوصول إلى النظام ولن يتمكنوا من استخدامه مرة أخرى.",
+        "cancel": "إلغاء",
+        "submit": "حذف الدور",
+        "submitting": "جارٍ الحذف...",
+        "confirmation": {
+          "token": "تأكيد الحذف",
+          "label": "اكتب تأكيد الحذف للتأكيد",
+          "placeholder": "اكتب تأكيد الحذف للتأكيد"
+        }
+      }
+    },
+    "validation": {
+      "nameRequired": "اسم الدور مطلوب",
+      "nameMin": "يجب ألا يقل اسم الدور عن حرفين",
+      "nameMax": "يجب ألا يتجاوز اسم الدور 50 حرفًا",
+      "fieldNames": {
+        "role": "اسم الدور"
+      }
+    },
+    "toasts": {
+      "createSuccess": "تم إنشاء الدور بنجاح",
+      "createError": "فشل إنشاء الدور",
+      "updateSuccess": "تم تحديث الدور بنجاح",
+      "updateError": "فشل تحديث الدور",
+      "updatePermissionsSuccess": "تم تحديث الصلاحيات بنجاح",
+      "updatePermissionsError": "فشل تحديث الصلاحيات",
+      "deleteSuccess": "تم حذف الدور بنجاح",
+      "deleteError": "فشل حذف الدور"
+    }
+  },
+  "settings": {
+    "title": "إعدادات النظام",
+    "description": "قم بتخصيص تفضيلات وإعدادات النظام الخاصة بك",
+    "tabs": {
+      "appearance": {
+        "title": "المظهر",
+        "description": "قم بتخصيص المظهر المرئي للوحة التحكم الخاصة بك",
+        "theme": {
+          "label": "المظهر",
+          "description": "اختر مظهر الألوان المفضل لديك",
+          "light": "فاتح",
+          "dark": "داكن",
+          "system": "النظام"
+        },
+        "sidebarStyle": {
+          "label": "نمط الشريط الجانبي",
+          "description": "اختر نمط تخطيط الشريط الجانبي المفضل لديك",
+          "sidebar": "شريط جانبي",
+          "floating": "عائم",
+          "inset": "مضمن"
+        }
+      },
+      "language": {
+        "title": "اللغة",
+        "description": "إدارة تفضيلات اللغة والترجمة الخاصة بك",
+        "preferredLanguage": {
+          "label": "اللغة المفضلة",
+          "description": "اختر لغتك المفضلة للواجهة"
+        }
+      },
+      "notifications": {
+        "title": "الإشعارات",
+        "description": "عرض وإدارة الإشعارات الخاصة بك",
+        "sound": {
+          "label": "صوت الإشعار",
+          "description": "اختر الصوت الذي سيتم تشغيله عند استلام إشعار جديد",
+          "selected": "الصوت {number}",
+          "clickToChange": "انقر لتغيير الصوت",
+          "modal": {
+            "title": "اختر صوت الإشعار",
+            "description": "اختر صوتًا سيتم تشغيله عند استلام إشعار جديد. انقر على أي صوت للمعاينة.",
+            "save": "حفظ",
+            "cancel": "إلغاء"
+          }
+        },
+        "notificationChannels": {
+          "label": "قنوات الإشعارات",
+          "description": "إدارة تفضيلات الإشعارات الخاصة بك"
+        },
+        "types": {
+          "email": {
+            "label": "إشعارات البريد الإلكتروني",
+            "description": "تلقي الإشعارات عبر البريد الإلكتروني"
+          },
+          "push": {
+            "label": "الإشعارات الفورية",
+            "description": "تلقي الإشعارات الفورية في المتصفح"
+          },
+          "sms": {
+            "label": "إشعارات الرسائل النصية",
+            "description": "تلقي الإشعارات عبر الرسائل النصية"
+          }
+        }
+      },
+      "general": {
+        "title": "عام",
+        "description": "إعدادات وتفضيلات النظام العامة",
+        "items": {
+          "timezone": {
+            "label": "المنطقة الزمنية",
+            "description": "تعيين المنطقة الزمنية المفضلة لديك"
+          },
+          "dataRetention": {
+            "label": "الاحتفاظ بالبيانات",
+            "description": "تكوين مدة الاحتفاظ بالبيانات في النظام"
+          },
+          "security": {
+            "label": "الأمان",
+            "description": "إدارة إعدادات الأمان"
+          }
+        }
+      },
+      "cityInfo": {
+        "title": "معلومات المدينة",
+        "description": "عرض معلومات المدينة وتحديث محتوى الهوية البصرية",
+        "save": "حفظ التغييرات",
+        "saving": "جاري الحفظ...",
+        "saved": "تم تحديث معلومات المدينة بنجاح",
+        "error": "فشل تحديث معلومات المدينة",
+        "noChanges": "لا توجد تغييرات للحفظ",
+        "readOnly": "لديك صلاحية العرض فقط. يمكنك رؤية معلومات المدينة ولكن لا يمكنك تعديلها.",
+        "fields": {
+          "name": {
+            "label": "اسم المدينة"
+          },
+          "description": {
+            "label": "الوصف",
+            "placeholder": "أدخل وصف المدينة"
+          },
+          "logo": {
+            "label": "شعار المدينة"
+          },
+          "banner": {
+            "label": "بانر المدينة"
+          }
+        },
+        "placeholders": {
+          "loading": "جاري تحميل معلومات المدينة...",
+          "error": "فشل تحميل معلومات المدينة",
+          "empty": "لم يتم العثور على معلومات المدينة"
+        }
+      },
+      "systemConfig": {
+        "title": "إعدادات النظام",
+        "description": "إدارة إعدادات التكوين على مستوى النظام",
+        "save": "حفظ التغييرات",
+        "saving": "جاري الحفظ...",
+        "saved": "تم حفظ التغييرات بنجاح",
+        "error": "فشل في حفظ التغييرات",
+        "noChanges": "لا توجد تغييرات للحفظ",
+        "configs": {
+          "default-currency": {
+            "title": "العملة الافتراضية",
+            "description": "هذه هي العملة الافتراضية للنظام وتُستخدم كعملة أساسية للمحاسبة."
+          },
+          "primary-service-operational": {
+            "title": "الخدمة الأساسية تعمل",
+            "description": "تفعيل أو إلغاء تفعيل الخدمة الأساسية"
+          },
+          "mobile-service-operational": {
+            "title": "الخدمة المحمولة تعمل",
+            "description": "تفعيل أو إلغاء تفعيل الخدمة المحمولة"
+          },
+          "penalty-applied": {
+            "title": "تطبيق الغرامة",
+            "description": "تفعيل أو إلغاء تفعيل تطبيق الغرامات"
+          },
+          "fastpay-enabled": {
+            "title": "تفعيل FastPay",
+            "description": "تفعيل أو إلغاء تفعيل مدفوعات FastPay"
+          },
+          "fastpay-store-id": {
+            "title": "معرف متجر FastPay",
+            "description": "أدخل معرف متجر FastPay الخاص بك",
+            "placeholder": "أدخل معرف المتجر"
+          },
+          "fastpay-store-password": {
+            "title": "كلمة مرور متجر FastPay",
+            "description": "أدخل كلمة مرور متجر FastPay الخاصة بك",
+            "placeholder": "أدخل كلمة مرور المتجر"
+          }
+        },
+        "validation": {
+          "storeIdRequired": "معرف المتجر مطلوب عند تفعيل FastPay",
+          "passwordRequired": "كلمة مرور المتجر مطلوبة عند تفعيل FastPay"
+        },
+        "placeholders": {
+          "loading": "جاري تحميل الإعدادات...",
+          "error": "فشل في تحميل الإعدادات",
+          "empty": "لم يتم العثور على إعدادات"
+        }
+      },
+      "account": {
+        "title": "الحساب",
+        "description": "إدارة معلومات الحساب والتفضيلات الخاصة بك",
+        "accountInformation": {
+          "label": "معلومات الحساب"
+        },
+        "info": {
+          "fullName": {
+            "label": "الاسم الكامل"
+          },
+          "email": {
+            "label": "البريد الإلكتروني"
+          },
+          "memberSince": {
+            "label": "عضو منذ"
+          },
+          "role": {
+            "label": "الدور"
+          }
+        }
+      }
+    }
+  },
+  "adminNotifications": {
+    "title": "الإشعارات",
+    "viewAll": "عرض الكل",
+    "empty": "لا توجد إشعارات",
+    "error": "فشل تحميل الإشعارات",
+    "card": {
+      "newNotificationFrom": "إشعار جديد من {name}"
+    },
+    "types": {
+      "TICKET": "تذكرة",
+      "PAYMENT": "دفعة"
+    },
+    "actions": {
+      "CREATE": "أنشأ",
+      "UPDATE": "حدث",
+      "DELETE": "حذف"
+    },
+    "dialog": {
+      "title": "تفاصيل الإشعار",
+      "description": "عرض تفاصيل كاملة لهذا الإشعار",
+      "message": "{name} {action} {type}"
+    },
+    "toast": {
+      "actions": {
+        "CREATE": "أنشأ",
+        "UPDATE": "حدث",
+        "DELETE": "حذف"
+      },
+      "types": {
+        "TICKET": "تذكرة",
+        "PAYMENT": "دفعة",
+        "ACCOUNT": "حساب",
+        "OTHER": "إشعار"
+      },
+      "message": "{name} {action} {type}",
+      "open": "فتح"
+    }
+  },
+  "home": {
+    "title": "الرئيسية",
+    "description": "مرحبًا بك في لوحة التحكم الخاصة بك",
+    "welcome": {
+      "greeting": "{dayTime} الخير، {name}",
+      "role": "الدور: {role}",
+      "viewProfile": "عرض الملف الشخصي",
+      "openSettings": "فتح الإعدادات"
+    },
+    "recentActivity": {
+      "title": "النشاط الأخير",
+      "empty": "لا يوجد نشاط حديث",
+      "emptyDescription": "ابدأ التنقل لرؤية صفحاتك الأخيرة هنا",
+      "clear": "مسح",
+      "confirmClear": "انقر مرة أخرى"
+    },
+    "recentNotifications": {
+      "title": "الإشعارات الأخيرة",
+      "viewAll": "عرض الكل",
+      "empty": "لا توجد إشعارات",
+      "emptyDescription": "لقد انتهيت من كل شيء!",
+      "error": "حدث خطأ أثناء تحميل الإشعارات"
+    },
+    "bookmarks": {
+      "add": "إضافة إلى الإشارات المرجعية",
+      "remove": "إزالة من الإشارات المرجعية"
+    },
+    "favoritePages": {
+      "title": "الصفحات المفضلة",
+      "empty": "لا توجد صفحات مفضلة",
+      "emptyDescription": "حاول إضافة بعض الصفحات عن طريق التمرير فوق عناصر التنقل والنقر على أيقونة النجمة",
+      "remove": "إزالة"
+    },
+    "systemStatus": {
+      "title": "حالة النظام",
+      "operational": "يعمل",
+      "maintenance": "صيانة",
+      "alert": "تنبيه",
+      "info": "معلومات",
+      "systemHealth": {
+        "title": "جميع الأنظمة تعمل",
+        "description": "جميع الخدمات تعمل بشكل طبيعي"
+      },
+      "apiStatus": {
+        "title": "خدمات API",
+        "description": "وقت الاستجابة: 120 مللي ثانية في المتوسط"
+      },
+      "databaseStatus": {
+        "title": "قاعدة البيانات",
+        "description": "مجموعة الاتصال: 45/50 نشط"
+      }
+    },
+    "quickStats": {
+      "title": "إحصائيات سريعة",
+      "error": "خطأ في تحميل الإحصائيات",
+      "empty": "لا توجد تذاكر",
+      "emptyDescription": "ليس لديك أي تذاكر حتى الآن",
+      "tickets": {
+        "total": "إجمالي التذاكر",
+        "pending": "قيد الانتظار",
+        "inProgress": "قيد التنفيذ",
+        "completed": "مكتملة",
+        "viewAll": "عرض جميع التذاكر"
+      }
+    },
+    "helpSupport": {
+      "title": "المساعدة والدعم",
+      "documentation": "التوثيق",
+      "contactSupport": "اتصل بالدعم",
+      "faq": "الأسئلة الشائعة",
+      "tutorials": "دروس الفيديو"
+    },
+    "performanceMetrics": {
+      "title": "مقاييس الأداء",
+      "systemHealth": "صحة النظام",
+      "apiResponse": "وقت استجابة API",
+      "activeUsers": "المستخدمون النشطون",
+      "database": "حالة قاعدة البيانات",
+      "good": "جيد",
+      "warning": "تحذير",
+      "critical": "حرج"
+    }
+  },
+  "errorCodes": {
+    "NOTIFICATION_NOT_FOUND": "الإشعارات غير موجودة",
+    "AUTH_UNAUTHORIZED": "ليس لديك الصلاحية للقيام بهذا الإجراء.",
+    "AUTH_FORBIDDEN": "الوصول إلى هذا المورد محظور.",
+    "USER_ROLE_NOT_ALLOWED": "دور المستخدم الخاص بك لا يملك إذنًا لهذا الإجراء.",
+    "AUTH_TOKEN_EXPIRED": "انتهت صلاحية جلستك. يرجى تسجيل الدخول مرة أخرى.",
+    "AUTH_TOKEN_INVALID": "رمز الجلسة غير صالح. يرجى تسجيل الدخول مرة أخرى.",
+    "VALIDATION_ERROR": "حدث خطأ في التحقق من البيانات.",
+    "VALIDATION_REQUIRED_FIELD": "حقل مطلوب مفقود.",
+    "VALIDATION_INVALID_FORMAT": "تنسيق البيانات غير صالح.",
+    "VALIDATION_OUT_OF_RANGE": "القيمة خارج النطاق المسموح به.",
+    "SECTOR_NOT_FOUND": "القطاع غير موجود.",
+    "SECTOR_DUPLICATE_NAME": "يوجد قطاع بهذا الاسم بالفعل.",
+    "SECTOR_HAS_ACTIVE_BUILDINGS": "لا يمكن حذف القطاع لوجود مباني نشطة به.",
+    "BUILDING_NOT_FOUND": "المبنى غير موجود.",
+    "BUILDING_DUPLICATE_CODE": "يوجد مبنى بهذا الرمز بالفعل.",
+    "BUILDING_DUPLICATE_NAME": "يوجد مبنى بهذا الاسم بالفعل.",
+    "BUILDING_HAS_ACTIVE_UNITS": "لا يمكن حذف المبنى لوجود وحدات نشطة به.",
+    "UNIT_NOT_FOUND": "الوحدة غير موجودة.",
+    "UNIT_DUPLICATE_NUMBER": "توجد وحدة بهذا الرقم بالفعل.",
+    "UNIT_OCCUPIED": "هذه الوحدة مشغولة حاليًا.",
+    "UNIT_ALREADY_OWNED": "هذه الوحدة مملوكة لشخص ما بالفعل.",
+    "USER_NOT_FOUND": "المستخدم غير موجود.",
+    "USER_EMAIL_ALREADY_EXISTS": "يوجد مستخدم بهذا البريد الإلكتروني بالفعل.",
+    "USER_PHONE_ALREADY_EXISTS": "يوجد مستخدم برقم الهاتف هذا بالفعل.",
+    "USER_IS_DEACTIVATED": "تم إلغاء تنشيط حساب المستخدم هذا.",
+    "DOCUMENT_NOT_FOUND": "المستند غير موجود.",
+    "DOCUMENT_DUPLICATE_REFERENCE": "يوجد مستند بهذا الرقم المرجعي بالفعل.",
+    "CONTRACT_NOT_FOUND": "العقد غير موجود.",
+    "CONTRACT_ALREADY_ACTIVE": "يوجد عقد نشط بالفعل.",
+    "CONTRACT_DUPLICATE": "يوجد عقد مكرر.",
+    "INVOICE_NOT_FOUND": "الفاتورة غير موجودة.",
+    "INVOICE_ALREADY_PAID": "تم دفع هذه الفاتورة بالفعل.",
+    "INVOICE_CANCELLED": "تم إلغاء هذه الفاتورة.",
+    "PAYMENT_NOT_FOUND": "سجل الدفع غير موجود.",
+    "PAYMENT_AMOUNT_EXCEEDS_BALANCE": "مبلغ الدفع يتجاوز الرصيد المستحق.",
+    "PAYMENT_FAILED": "فشلت عملية الدفع. يرجى المحاولة مرة أخرى.",
+    "TICKET_NOT_FOUND": "التذكرة غير موجودة.",
+    "CAMERA_NOT_FOUND": "الكاميرا غير موجودة.",
+    "GATE_NOT_FOUND": "البوابة غير موجودة.",
+    "CAMERA_DUPLICATE_NAME": "توجد كاميرا بهذا الاسم بالفعل.",
+    "VEHICLE_NOT_FOUND": "المركبة غير موجودة.",
+    "VEHICLE_DUPLICATE_PLATE": "توجد مركبة برقم اللوحة هذا بالفعل.",
+    "VEHICLE_ALREADY_REGISTERED": "هذه المركبة مسجلة بالفعل.",
+    "INTERNAL_SERVER_ERROR": "حدث خطأ داخلي في الخادم. يرجى المحاولة لاحقًا.",
+    "DATABASE_ERROR": "حدث خطأ في قاعدة البيانات.",
+    "RESOURCE_NOT_FOUND": "المورد المطلوب غير موجود."
+  }
+}

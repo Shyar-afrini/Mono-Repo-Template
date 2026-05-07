@@ -1,0 +1,853 @@
+{
+  "shared": {
+    "table": {
+      "pageSize": {
+        "label": "Rows"
+      }
+    },
+    "placeholders": {
+      "error": "Error loading data",
+      "empty": "No data found",
+      "copy": "Copy to clipboard",
+      "copied": "Copied to clipboard",
+      "failedToCopy": "Failed to copy to clipboard",
+      "fullscreen": "Enter Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
+    },
+    "asyncCombobox": {
+      "loading": "Loading...",
+      "loadingMore": "Loading more...",
+      "empty": "No results found",
+      "error": "Failed to load",
+      "retry": "Retry"
+    },
+    "fileUploader": {
+      "label": "Upload {type}",
+      "placeholder": "Upload {type}",
+      "image": "Image",
+      "images": "Images",
+      "fileUploadRules": "Please select a file or image to upload, it must be less than 3MB",
+      "file": "File",
+      "files": "Files",
+      "uploading": "Uploading...",
+      "upload": "Upload",
+      "cancel": "Cancel",
+      "error": "Error uploading",
+      "success": "Upload successful",
+      "maxFilesError": "You can upload a maximum of {maxFiles} files"
+    }
+  },
+  "mainPage": {
+    "welcomeMessage": "Good {dayTime} User",
+    "welcomeMessageWithName": "Good {dayTime} {fullname}",
+    "greeting": "Welcome back to your city management system",
+    "button": "Get Started",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "night": "Night",
+    "support": "Contact Support"
+  },
+  "pwaInstallPrompt": {
+    "title": "Install App",
+    "description": "Add it to your home screen for a better experience.",
+    "action": "Install"
+  },
+  "navigation": {
+    "admins": {
+      "manageAdmins": "Manage Admins",
+      "rolesPermissions": "Roles & Permissions"
+    },
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Logout",
+    "loggingOut": "Logging out..."
+  },
+  "sidebar": {
+    "appName": "Interlinked City",
+    "groups": {
+      "dashboard": "Dashboard",
+      "surveillance": "Surveillance",
+      "operations": "Operations",
+      "citizens": "Citizens",
+      "guests": "Guests",
+      "hr": "Human Resources",
+      "housing": "Housing",
+      "contractsFinance": "Contracts & Finance",
+      "financial": "Financial",
+      "vehicles": "Vehicles",
+      "businesses": "Businesses",
+      "services": "Services",
+      "definitions": "Definitions",
+      "settings": "Settings",
+      "documents": "Documents"
+    },
+    "items": {
+      "home": "Home",
+      "services": "Services",
+      "definitions": "Definitions",
+      "serviceBundles": "Service Bundles",
+      "serviceDefinitions": "Service Definitions",
+      "unitDefinitions": "Unit Definitions",
+      "analytics": "Analytics",
+      "reports": "Reports",
+      "contractReports": "Contract Reports",
+      "housingReports": "Housing Reports",
+      "financialReports": "Financial Reports",
+      "ticketReports": "Ticket Reports",
+      "usersReports": "Users Reports",
+      "users": "Users",
+      "blocks": "Blocks",
+      "familyMembers": "Family Members",
+      "rolesPermissions": "Roles & Permissions",
+      "maps": "Maps",
+      "liveSurveillance": "Live Surveillance",
+      "gatesAndCameras": "Gates & Cameras",
+      "banners": "Banners",
+      "notifications": "Notifications",
+      "addresses": "Addresses",
+      "sectors": "Sectors",
+      "buildings": "Buildings",
+      "houses": "Houses",
+      "floors": "Floors",
+      "units": "Units",
+      "unitTypes": "Unit Types",
+      "contracts": "Contracts",
+      "rentContracts": "Rent Contracts",
+      "ownershipContracts": "Ownership Contracts",
+      "installmentContracts": "Installment Contracts",
+      "accounting": "Accounting",
+      "ledger": "Ledger",
+      "accounts": "Accounts",
+      "statistics": "Statistics",
+      "exchangeRates": "Exchange rates",
+      "invoices": "Invoices",
+      "payments": "Payments",
+      "crm": "CRM",
+      "billing": "Billing",
+      "companies": "Companies",
+      "contacts": "Contacts",
+      "companyDebts": "Company debts",
+      "companyPayments": "Company payments",
+      "hr": "Human Resources",
+      "employees": "Employees",
+      "departments": "Departments",
+      "salaries": "Salaries",
+      "employeePayments": "Employee payments",
+      "vehicles": "Vehicles",
+      "businesses": "Businesses",
+      "tickets": "Tickets",
+      "auditLogs": "Audit Logs",
+      "systemSettings": "System Settings",
+      "housing": "Housing",
+      "userDocuments": "User Documents",
+      "businessDocuments": "Business Documents",
+      "adminsRoles": "Admins & Roles",
+      "admins": "Admins",
+      "guests": "Guests"
+    }
+  },
+  "admins": {
+    "title": "Admins",
+    "description": "Manage admins in the system",
+    "button": "Add Admin",
+    "search": {
+      "placeholder": "Search",
+      "validation": {
+        "tooShort": "Please enter at least 2 characters",
+        "tooLong": "Search term must be 50 characters or fewer",
+        "invalid": "Invalid search term"
+      }
+    },
+    "table": {
+      "columns": {
+        "columns": "Columns",
+        "fullname": "Full Name",
+        "email": "Email",
+        "role": "Role",
+        "isActive": "Status",
+        "actions": "Actions"
+      },
+      "placeholders": {
+        "empty": {
+          "title": "No admins found",
+          "description": "Try changing your search."
+        },
+        "error": {
+          "title": "Failed to load admins",
+          "description": "Please try again."
+        }
+      },
+      "actions": {
+        "edit": "Edit admin",
+        "activate": "Activate admin",
+        "deactivate": "Deactivate admin",
+        "activating": "Activating...",
+        "deactivating": "Deactivating..."
+      }
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "changePassword": "Change password"
+    },
+    "dialogs": {
+      "delete": {
+        "title": "Delete admin",
+        "description": "Deleting {fullname} will permanently remove their admin account.",
+        "warning": "This admin will immediately lose access to the dashboard and cannot sign in again.",
+        "confirmation": {
+          "label": "Type DELETE to confirm.",
+          "placeholder": "Type DELETE",
+          "token": "DELETE"
+        },
+        "cancel": "Cancel",
+        "submit": "Delete",
+        "submitting": "Deleting..."
+      },
+      "password": {
+        "title": "Change password for {name}",
+        "description": "Set a new password for {email}.",
+        "trigger": "Change password",
+        "input": {
+          "label": "New password",
+          "placeholder": "Enter a strong password"
+        },
+        "requirements": {
+          "length": "At least 8 characters",
+          "uppercase": "Contains an uppercase letter",
+          "number": "Contains a number",
+          "symbol": "Contains a symbol"
+        },
+        "submit": "Update password",
+        "submitting": "Updating..."
+      }
+    },
+    "addSheet": {
+      "title": "Add Admin",
+      "description": "Create a new admin account",
+      "submit": "Create Admin",
+      "submitting": "Creating Admin...",
+      "toasts": {
+        "success": "Admin created successfully",
+        "error": "Failed to create admin"
+      },
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter email address"
+        },
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "Enter phone number (optional)"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter secure password"
+        },
+        "profilePhoto": {
+          "label": "Profile Photo"
+        },
+        "isActive": {
+          "label": "Active",
+          "description": "Allow this admin to sign in and use the dashboard"
+        },
+        "role": {
+          "label": "Role",
+          "placeholder": "Select role",
+          "empty": "No roles found"
+        }
+      },
+      "validation": {
+        "required": "{field} is required",
+        "minLength": "{field} must be at least {min} characters",
+        "maxLength": "{field} must be less than {max} characters",
+        "invalidEmail": "Please enter a valid email address",
+        "password": {
+          "minLength": "Password must be at least 8 characters",
+          "maxLength": "Password must be less than 64 characters",
+          "uppercase": "Password must include an uppercase letter",
+          "lowercase": "Password must include a lowercase letter",
+          "number": "Password must include a number",
+          "symbol": "Password must include a symbol"
+        },
+        "fieldNames": {
+          "fullName": "Full Name",
+          "email": "Email",
+          "phoneNumber": "Phone Number",
+          "password": "Password",
+          "role": "Role"
+        }
+      }
+    },
+    "editSheet": {
+      "title": "Edit Admin",
+      "description": "Update admin details",
+      "submit": "Update Admin",
+      "submitting": "Updating Admin...",
+      "trigger": "Edit admin"
+    },
+    "toasts": {
+      "delete": {
+        "success": "Admin deleted successfully",
+        "error": "Failed to delete admin"
+      },
+      "update": {
+        "success": "Admin updated successfully",
+        "error": "Failed to update admin"
+      },
+      "status": {
+        "activate": {
+          "success": "Admin activated successfully",
+          "error": "Failed to activate admin"
+        },
+        "deactivate": {
+          "success": "Admin deactivated successfully",
+          "error": "Failed to deactivate admin"
+        }
+      },
+      "password": {
+        "success": "Password updated successfully",
+        "error": "Failed to update password"
+      }
+    }
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "total": "total"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back!",
+      "description": "Login to your system to continue",
+      "submit": "Login",
+      "dontHaveAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "byClickingContinue": "By clicking continue, you agree to our",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "emailPlaceholder": "m@example.com",
+      "email": "Email",
+      "password": "Password",
+      "loadingText": "Logging in...",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "passwordRequired": "Password is required",
+      "passwordInvalid": "Invalid password",
+      "passwordMinLength": "Password must be at least {minLength} characters",
+      "error": "Please check your email and password",
+      "logout": "Logout",
+      "loggingOut": "Logging out..."
+    },
+    "disabledAccount": {
+      "title": "Your Account Has Been Disabled",
+      "description": "Your account has been disabled, and you can no longer access the dashboard.\nIf you believe this action was applied by mistake, please contact support to reactivate your account.",
+      "warning": "Access denied: your account is inactive.",
+      "backToLogin": "Back to Login",
+      "redirecting": "Redirecting..."
+    }
+  },
+  "roles": {
+    "page": {
+      "title": "Roles & Permissions",
+      "description": "Manage system roles and plan permissions support"
+    },
+    "tabs": {
+      "roles": "Roles",
+      "permissions": "Permissions"
+    },
+    "list": {
+      "title": "Existing Roles",
+      "empty": "No roles created yet",
+      "error": "Error loading roles",
+      "admins": "Admin(s)",
+      "actions": {
+        "edit": "Rename role",
+        "delete": "Delete role"
+      }
+    },
+    "create": {
+      "button": "Add Role",
+      "dialog": {
+        "title": "Create a new role",
+        "description": "Roles control which areas of the system administrators can access.",
+        "nameLabel": "Role name",
+        "namePlaceholder": "Enter role name",
+        "submit": "Create Role",
+        "submitting": "Creating...",
+        "cancel": "Cancel"
+      }
+    },
+    "assignPermissions": {
+      "button": "Assign Permissions",
+      "dialog": {
+        "title": "Assign Permissions",
+        "description": "Assign permissions to the role.",
+        "submit": "Save Permissions",
+        "submitting": "Saving...",
+        "cancel": "Cancel",
+        "error": "Failed to load permissions",
+        "empty": "No permissions available"
+      },
+      "permissions": {
+        "selectAll": "Select All",
+        "selectAllPermissions": "Select All Permissions",
+        "actions": {
+          "read": "View and read data",
+          "write": "Create and modify data",
+          "delete": "Remove and delete data"
+        },
+        "resources": {
+          "accounting": "Accounting",
+          "user": "User",
+          "admin": "Admin",
+          "banner": "Banner",
+          "family": "Family",
+          "category": "Category",
+          "sector": "Sector",
+          "building": "Building",
+          "floor": "Floor",
+          "block": "Block",
+          "address": "Address",
+          "unit": "Unit",
+          "camera": "Camera",
+          "contract": "Contract",
+          "company": "Company",
+          "contact": "Contact",
+          "department": "Department",
+          "departmentmember": "Department member",
+          "employee": "Employee",
+          "exchangerate": "Exchange Rate",
+          "guest": "Guest",
+          "rentcontract": "Rent Contract",
+          "ownershipcontract": "Ownership Contract",
+          "installmentcontract": "Installment Contract",
+          "invoice": "Invoice",
+          "map": "Map",
+          "payment": "Payment",
+          "salary": "Salary",
+          "salarypayment": "Salary Payment",
+          "ticket": "Ticket",
+          "service": "Service",
+          "notification": "Notification",
+          "business": "Business",
+          "transaction": "Transaction",
+          "transfer": "Transfer",
+          "wallet": "Wallet",
+          "vehicle": "Vehicle",
+          "file": "File",
+          "documents": "Documents",
+          "config": "Configuration",
+          "preferences": "Preferences",
+          "auditlog": "Audit Log"
+        }
+      }
+    },
+    "edit": {
+      "dialog": {
+        "title": "Rename role",
+        "description": "Update the role name.",
+        "submit": "Update Role",
+        "submitting": "Updating..."
+      }
+    },
+    "delete": {
+      "dialog": {
+        "title": "Delete role",
+        "description": "This will permanently remove the role {name}.",
+        "warning": "If there are admins assigned to this role, they will lose access to the system and won't be able to use it again.",
+        "cancel": "Cancel",
+        "submit": "Delete Role",
+        "submitting": "Deleting...",
+        "confirmation": {
+          "token": "DELETE",
+          "label": "Type DELETE to confirm",
+          "placeholder": "Type DELETE to confirm"
+        }
+      }
+    },
+    "validation": {
+      "nameRequired": "Role name is required",
+      "nameMin": "Role name must be at least 2 characters",
+      "nameMax": "Role name must be less than 50 characters",
+      "fieldNames": {
+        "role": "Role name"
+      }
+    },
+    "toasts": {
+      "createSuccess": "Role created successfully",
+      "createError": "Failed to create role",
+      "updateSuccess": "Role updated successfully",
+      "updateError": "Failed to update role",
+      "updatePermissionsSuccess": "Permissions updated successfully",
+      "updatePermissionsError": "Failed to update permissions",
+      "deleteSuccess": "Role deleted successfully",
+      "deleteError": "Failed to delete role"
+    }
+  },
+  "settings": {
+    "title": "System Settings",
+    "description": "Customize your system preferences and configuration",
+    "tabs": {
+      "appearance": {
+        "title": "Appearance",
+        "description": "Customize the visual appearance of your dashboard",
+        "theme": {
+          "label": "Theme",
+          "description": "Choose your preferred color theme",
+          "light": "Light",
+          "dark": "Dark",
+          "system": "System"
+        },
+        "sidebarStyle": {
+          "label": "Sidebar Style",
+          "description": "Choose your preferred sidebar layout style",
+          "sidebar": "Sidebar",
+          "floating": "Floating",
+          "inset": "Inset"
+        }
+      },
+      "language": {
+        "title": "Language",
+        "description": "Manage your language and localization preferences",
+        "preferredLanguage": {
+          "label": "Preferred Language",
+          "description": "Select your preferred language for the interface"
+        }
+      },
+      "notifications": {
+        "title": "Notifications",
+        "description": "View and manage your notifications",
+        "sound": {
+          "label": "Notification Sound",
+          "description": "Choose the sound that will play when you receive a new notification",
+          "selected": "Sound {number}",
+          "clickToChange": "Click to change sound",
+          "modal": {
+            "title": "Select Notification Sound",
+            "description": "Choose a sound that will play when you receive a new notification. Click on any sound to preview it.",
+            "save": "Save",
+            "cancel": "Cancel"
+          }
+        },
+        "notificationChannels": {
+          "label": "Notification Channels",
+          "description": "Manage your notification preferences"
+        },
+        "types": {
+          "email": {
+            "label": "Email Notifications",
+            "description": "Receive notifications via email"
+          },
+          "push": {
+            "label": "Push Notifications",
+            "description": "Receive push notifications in your browser"
+          },
+          "sms": {
+            "label": "SMS Notifications",
+            "description": "Receive notifications via SMS"
+          }
+        }
+      },
+      "general": {
+        "title": "General",
+        "description": "General system settings and preferences",
+        "items": {
+          "timezone": {
+            "label": "Timezone",
+            "description": "Set your preferred timezone"
+          },
+          "dataRetention": {
+            "label": "Data Retention",
+            "description": "Configure how long data is kept in the system"
+          },
+          "security": {
+            "label": "Security",
+            "description": "Manage security settings"
+          }
+        }
+      },
+      "cityInfo": {
+        "title": "City Info",
+        "description": "View city details and update branding content",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "saved": "City information updated successfully",
+        "error": "Failed to update city information",
+        "noChanges": "No changes to save",
+        "readOnly": "You have view-only access. You can view city information but cannot edit it.",
+        "fields": {
+          "name": {
+            "label": "City Name"
+          },
+          "description": {
+            "label": "Description",
+            "placeholder": "Enter city description"
+          },
+          "logo": {
+            "label": "City Logo"
+          },
+          "banner": {
+            "label": "City Banner"
+          }
+        },
+        "placeholders": {
+          "loading": "Loading city information...",
+          "error": "Failed to load city information",
+          "empty": "No city information found"
+        }
+      },
+      "systemConfig": {
+        "title": "System Configuration",
+        "description": "Manage system-wide configuration settings",
+        "save": "Save Changes",
+        "saving": "Saving...",
+        "saved": "Changes saved successfully",
+        "error": "Failed to save changes",
+        "noChanges": "No changes to save",
+        "configs": {
+          "default-currency": {
+            "title": "Default currency",
+            "description": "This is the system default currency used as the base currency for accounting."
+          },
+          "primary-service-operational": {
+            "title": "Primary Service Operational",
+            "description": "Enable or disable the primary service"
+          },
+          "mobile-service-operational": {
+            "title": "Mobile Service Operational",
+            "description": "Enable or disable the mobile service"
+          },
+          "penalty-applied": {
+            "title": "Penalty Applied",
+            "description": "Enable or disable penalty application"
+          },
+          "fastpay-enabled": {
+            "title": "FastPay Enabled",
+            "description": "Enable or disable FastPay payments"
+          },
+          "fastpay-store-id": {
+            "title": "FastPay Store ID",
+            "description": "Enter your FastPay Store ID",
+            "placeholder": "Enter Store ID"
+          },
+          "fastpay-store-password": {
+            "title": "FastPay Store Password",
+            "description": "Enter your FastPay Store Password",
+            "placeholder": "Enter Store Password"
+          }
+        },
+        "validation": {
+          "storeIdRequired": "Store ID is required when FastPay is enabled",
+          "passwordRequired": "Store Password is required when FastPay is enabled"
+        },
+        "placeholders": {
+          "loading": "Loading configurations...",
+          "error": "Failed to load configurations",
+          "empty": "No configurations found"
+        }
+      },
+      "account": {
+        "title": "Account",
+        "description": "Manage your account information and preferences",
+        "accountInformation": {
+          "label": "Account Information"
+        },
+        "info": {
+          "fullName": {
+            "label": "Full Name"
+          },
+          "email": {
+            "label": "Email"
+          },
+          "memberSince": {
+            "label": "Member Since"
+          },
+          "role": {
+            "label": "Role"
+          }
+        }
+      }
+    }
+  },
+  "adminNotifications": {
+    "title": "Notifications",
+    "viewAll": "View All",
+    "empty": "No notifications",
+    "error": "Failed to load notifications",
+    "card": {
+      "newNotificationFrom": "New notification from {name}"
+    },
+    "types": {
+      "TICKET": "Ticket",
+      "PAYMENT": "Payment"
+    },
+    "actions": {
+      "CREATE": "created",
+      "UPDATE": "updated",
+      "DELETE": "deleted"
+    },
+    "dialog": {
+      "title": "Notification Details",
+      "description": "View full details of this notification",
+      "message": "{name} {action} a {type}"
+    },
+    "toast": {
+      "actions": {
+        "CREATE": "created",
+        "UPDATE": "updated",
+        "DELETE": "deleted"
+      },
+      "types": {
+        "TICKET": "ticket",
+        "PAYMENT": "payment",
+        "ACCOUNT": "account",
+        "OTHER": "notification"
+      },
+      "message": "{name} {action} a {type}",
+      "open": "Open"
+    }
+  },
+  "home": {
+    "title": "Home",
+    "description": "Welcome to your dashboard",
+    "welcome": {
+      "greeting": "Good {dayTime}, {name}",
+      "role": "Role: {role}",
+      "viewProfile": "View Profile",
+      "openSettings": "Open Settings"
+    },
+    "recentActivity": {
+      "title": "Recent Activity",
+      "empty": "No recent activity",
+      "emptyDescription": "Start navigating to see your recent pages here",
+      "clear": "Clear",
+      "confirmClear": "Click again"
+    },
+    "recentNotifications": {
+      "title": "Recent Notifications",
+      "viewAll": "View All",
+      "empty": "No notifications",
+      "emptyDescription": "You're all caught up!",
+      "error": "Error loading notifications"
+    },
+    "bookmarks": {
+      "add": "Add to bookmarks",
+      "remove": "Remove from bookmarks"
+    },
+    "favoritePages": {
+      "title": "Favorite Pages",
+      "empty": "No bookmarked pages",
+      "emptyDescription": "Try adding some by hovering over navigation items and clicking the star icon",
+      "remove": "Remove"
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "operational": "Operational",
+      "maintenance": "Maintenance",
+      "alert": "Alert",
+      "info": "Info",
+      "systemHealth": {
+        "title": "All systems operational",
+        "description": "All services are running normally"
+      },
+      "apiStatus": {
+        "title": "API services",
+        "description": "Response time: 120ms average"
+      },
+      "databaseStatus": {
+        "title": "Database",
+        "description": "Connection pool: 45/50 active"
+      }
+    },
+    "quickStats": {
+      "title": "Quick Stats",
+      "error": "Error loading statistics",
+      "empty": "No tickets found",
+      "emptyDescription": "You don't have any tickets yet",
+      "tickets": {
+        "total": "Total Tickets",
+        "pending": "Pending",
+        "inProgress": "In Progress",
+        "completed": "Completed",
+        "viewAll": "View All Tickets"
+      }
+    },
+    "helpSupport": {
+      "title": "Help & Support",
+      "documentation": "Documentation",
+      "contactSupport": "Contact Support",
+      "faq": "FAQ",
+      "tutorials": "Video Tutorials"
+    },
+    "performanceMetrics": {
+      "title": "Performance Metrics",
+      "systemHealth": "System Health",
+      "apiResponse": "API Response Time",
+      "activeUsers": "Active Users",
+      "database": "Database Status",
+      "good": "Good",
+      "warning": "Warning",
+      "critical": "Critical"
+    }
+  },
+  "errorCodes": {
+    "NOTIFICATION_NOT_FOUND": "Notification not found",
+    "AUTH_UNAUTHORIZED": "You are not authorized to perform this action.",
+    "AUTH_FORBIDDEN": "Access to this resource is forbidden.",
+    "USER_ROLE_NOT_ALLOWED": "Your user role does not have permission for this action.",
+    "AUTH_TOKEN_EXPIRED": "Your session has expired. Please log in again.",
+    "AUTH_TOKEN_INVALID": "Invalid session token. Please log in again.",
+    "VALIDATION_ERROR": "A validation error occurred.",
+    "VALIDATION_REQUIRED_FIELD": "A required field is missing.",
+    "VALIDATION_INVALID_FORMAT": "The data format is invalid.",
+    "VALIDATION_OUT_OF_RANGE": "The value is out of the allowed range.",
+    "SECTOR_NOT_FOUND": "Sector not found.",
+    "SECTOR_DUPLICATE_NAME": "A sector with this name already exists.",
+    "SECTOR_HAS_ACTIVE_BUILDINGS": "Cannot delete sector because it has active buildings.",
+    "BUILDING_NOT_FOUND": "Building not found.",
+    "BUILDING_DUPLICATE_CODE": "A building with this code already exists.",
+    "BUILDING_DUPLICATE_NAME": "A building with this name already exists.",
+    "BUILDING_HAS_ACTIVE_UNITS": "Cannot delete building because it has active units.",
+    "UNIT_NOT_FOUND": "Unit not found.",
+    "UNIT_DUPLICATE_NUMBER": "A unit with this number already exists.",
+    "UNIT_OCCUPIED": "This unit is currently occupied.",
+    "UNIT_ALREADY_OWNED": "This unit is already owned by someone.",
+    "USER_NOT_FOUND": "User not found.",
+    "USER_EMAIL_ALREADY_EXISTS": "A user with this email address already exists.",
+    "USER_PHONE_ALREADY_EXISTS": "A user with this phone number already exists.",
+    "USER_IS_DEACTIVATED": "This user account has been deactivated.",
+    "DOCUMENT_NOT_FOUND": "Document not found.",
+    "DOCUMENT_DUPLICATE_REFERENCE": "A document with this reference number already exists.",
+    "CONTRACT_NOT_FOUND": "Contract not found.",
+    "CONTRACT_ALREADY_ACTIVE": "An active contract already exists.",
+    "CONTRACT_DUPLICATE": "A duplicate contract exists.",
+    "INVOICE_NOT_FOUND": "Invoice not found.",
+    "INVOICE_ALREADY_PAID": "This invoice has already been paid.",
+    "INVOICE_CANCELLED": "This invoice has been cancelled.",
+    "PAYMENT_NOT_FOUND": "Payment record not found.",
+    "PAYMENT_AMOUNT_EXCEEDS_BALANCE": "The payment amount exceeds the outstanding balance.",
+    "PAYMENT_FAILED": "Payment processing failed. Please try again.",
+    "TICKET_NOT_FOUND": "Ticket not found.",
+    "CAMERA_NOT_FOUND": "Camera not found.",
+    "GATE_NOT_FOUND": "Gate not found.",
+    "CAMERA_DUPLICATE_NAME": "A camera with this name already exists.",
+    "VEHICLE_NOT_FOUND": "Vehicle not found.",
+    "VEHICLE_DUPLICATE_PLATE": "A vehicle with this license plate already exists.",
+    "VEHICLE_ALREADY_REGISTERED": "This vehicle is already registered.",
+    "INTERNAL_SERVER_ERROR": "An internal server error occurred. Please try again later.",
+    "DATABASE_ERROR": "A database error occurred.",
+    "RESOURCE_NOT_FOUND": "The requested resource was not found."
+  }
+}

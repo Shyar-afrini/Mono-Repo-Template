@@ -1,0 +1,22 @@
+{
+  "extends": "./packages/config/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@mono-repo-template/*": ["./packages/*/src"]
+    },
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": [],
+  "references": [
+    { "path": "./packages/database" },
+    { "path": "./packages/ui" },
+    { "path": "./apps/primary-backend" },
+    { "path": "./apps/mobile-backend" },
+    { "path": "./apps/dashboard" },
+    { "path": "./apps/mobile" }
+  ],
+  
+}

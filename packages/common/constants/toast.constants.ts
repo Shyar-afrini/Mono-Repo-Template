@@ -1,0 +1,4 @@
+export enum TOAST_CONSTANTS {
+  TOAST_SUCCESS_STYLE = "",
+  TOAST_DURATION = 3000,
+}

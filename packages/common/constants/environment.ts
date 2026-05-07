@@ -1,0 +1,3 @@
+export enum ENVIRONMENT_CONSTANTS {
+  SHOW_ACTIVE_PATH_NAME = 0,
+}

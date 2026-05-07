@@ -1,0 +1,23 @@
+{
+  "name": "@mono-repo-template/common",
+  "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "lodash": "latest"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.0"
+}

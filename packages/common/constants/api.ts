@@ -1,0 +1,45 @@
+export const API_CONFIG = {
+  BASE_URL:
+    process.env.NEXT_PUBLIC_API_ENDPOINT ||
+    process.env.API_BASE_URL ||
+    "http://localhost:3001/api/v1",
+} as const;
+
+export enum API_PATHS {
+  AUTH = "/auth",
+  SIGN_IN = "/auth/signin",
+  VALIDATE_SESSION = "/auth/session/validate",
+  GET_CURRENT_USER = "/admins/current-session",
+  LOGOUT = "/auth/signout",
+  USERS = "/users",
+  ADMINS = "/admins",
+  SECTORS = "/sectors",
+  PERMISSION_ROLES = "/permissions/roles",
+  VEHICLES = "/vehicles",
+  CRM = "/crm",
+  BUILDINGS = "/sectors/buildings",
+  BLOCKS = "/sectors/blocks",
+  UNITS = "/sectors/buildings/floors/{floorId}/units",
+  USER_TICKETS = "/tickets",
+  IMAGES = "/files/upload",
+  PERMISSIONS = "/permissions/available",
+  ADDRESSES = "/address",
+  CONTRACTS = "/contracts",
+  NOTIFICATIONS = "/notifications",
+  PAYMENTS = "/payments",
+  INVOICES = "/invoices",
+  APP_CONFIGS = "/app-configs",
+  CITY = "/city",
+  UNIT_DEFINITIONS = "/sectors/units/definitions",
+  AUDIT_LOGS = "/audit-logs",
+  GATES = "/cameras/gates",
+  SERVICES_BUNDLES = "/services/bundles",
+  BANNERS = "/banners",
+  ACCOUNTING_CASH_FLOW = "/accounting/cash-flow",
+  ACCOUNTING_CATEGORIES = "/accounting/categories",
+  ACCOUNTING_TRANSACTIONS = "/accounting/transactions",
+  ACCOUNTING_TRANSACTIONS_LATEST_ACTIONS = "/accounting/transactions/latest-actions",
+  ACCOUNTING_WALLETS = "/accounting/wallets",
+  ACCOUNTING_EXCHANGE_RATES = "/accounting/exchange-rates",
+  HR = "/hr",
+}

@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+**/node_modules
+**/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Environment files
+.env*
+!.env.example
+
+# IDE and OS
+.vscode
+.DS_Store
+*.pem
+
+# Build tools
+.turbo
+
+# Next.js (Dashboard)
+.next/
+out/
+next-env.d.ts
+
+# React Native (Mobile)
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Native files
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Backend
+build/
+dist/
+coverage/
+apps/primary-backend-2
+apps/primary-backend/system_admin_id.enc
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.pnpm-debug.log*
+
+# Deployment
+.vercel
+
+# Temporary files
+app-example
+
+TODO.md
+units.md
+
+temp*.json
+
+.VsCodeCounter
+
+**/*.md
+/phased-features
+
+scripts

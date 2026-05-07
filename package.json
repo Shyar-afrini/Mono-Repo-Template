@@ -1,0 +1,71 @@
+{
+  "packageManager": "pnpm@10.30.1",
+  "name": "mono-repo-template",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "seed:admin": "cd packages/database && node dist/seed.js",
+    "build:packages": "cd packages/backend && pnpm run build && cd ../database && pnpm install && pnpm run build && pnpm run drizzle:migrate:primary && pnpm -w run seed:admin",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.85.5",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "turbo": "^2.5.6",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.7",
+    "@tanstack/react-query": "^5.85.5",
+    "date-fns": "^4.1.0",
+    "qrcode": "^1.5.4",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "turborepo": "^0.0.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/node": "20.19.11",
+      "@types/react": "~19.0.10",
+      "@types/react-dom": "~19.0.0",
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "react-server-dom-webpack": "19.0.0",
+      "@react-google-maps/api>react": "19.0.0",
+      "@react-google-maps/api>react-dom": "19.0.0",
+      "@tanstack/react-query>react": "19.0.0",
+      "drizzle-orm": "0.44.4",
+      "zod": "^4.1.5"
+    },
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "react": "19.0.0",
+        "react-dom": "19.0.0"
+      }
+    },
+    "onlyBuiltDependencies": [
+      "@apollo/protobufjs",
+      "@nestjs/core",
+      "@swc/core"
+    ],
+    "ignoredBuiltDependencies": [
+      "@nestjs/core",
+      "@parcel/watcher",
+      "@swc/core",
+      "@tailwindcss/oxide",
+      "aws-sdk",
+      "esbuild",
+      "event-loop-stats",
+      "sharp",
+      "unrs-resolver"
+    ]
+  }
+}

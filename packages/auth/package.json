@@ -1,0 +1,25 @@
+{
+  "name": "@mono-repo-template/auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mono-repo-template/axios-client": "workspace:*",
+    "@mono-repo-template/common": "workspace:*",
+    "@mono-repo-template/config": "workspace:*",
+    "@mono-repo-template/types": "workspace:*",
+    "@mono-repo-template/backend": "workspace:*",
+    "@tanstack/react-query": "^5.85.6",
+    "axios": "^1.11.0",
+    "zod": "^4.1.5"
+  }
+}

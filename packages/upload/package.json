@@ -1,0 +1,30 @@
+{
+  "name": "@mono-repo-template/upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mono-repo-template/axios-client": "workspace:*",
+    "@mono-repo-template/common": "workspace:*",
+    "@mono-repo-template/config": "workspace:*",
+    "@mono-repo-template/types": "workspace:*",
+    "@mono-repo-template/backend": "workspace:*",
+    "@tanstack/react-query": "^5.85.6",
+    "axios": "^1.11.0",
+    "zod": "^4.1.5",
+    "lucide-react": "^0.541.0",
+    "motion": "^12.23.12",
+    "@mono-repo-template/utils": "workspace:*",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1"
+  }
+}

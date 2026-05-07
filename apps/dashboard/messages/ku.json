@@ -1,0 +1,853 @@
+{
+  "shared": {
+    "table": {
+      "pageSize": {
+        "label": "ژمارەی ڕیزەکان"
+      }
+    },
+    "placeholders": {
+      "error": "هەڵە لە بارکردنی داتا",
+      "empty": "هیچ داتایەک نەدۆزرایەوە",
+      "copy": "لەبەرگرتن بۆ کلیپبۆرد",
+      "copied": "لەبەرگیرا",
+      "failedToCopy": "لەبەرگرتن سەرکەوتوو نەبوو",
+      "fullscreen": "دەروونکردنی پەڕەیەک",
+      "exitFullscreen": "دەروونکردنی پەڕەیەک"
+    },
+    "asyncCombobox": {
+      "loading": "لە بارکردندایە...",
+      "loadingMore": "زیاتر لە بارکردندایە...",
+      "empty": "هیچ ئەنجامێک نییە",
+      "error": "بارکردن سەرکەوتوو نەبوو",
+      "retry": "دووبارە هەوڵدانەوە"
+    },
+    "fileUploader": {
+      "label": "{type} باربکە",
+      "placeholder": "{type} باربکە",
+      "image": "وێنە",
+      "images": "وێنەکان",
+      "fileUploadRules": "تکایە فایلێک یان وێنەیەک بۆ بارکردن هەڵبژێرە، دەبێت کەمتر بێت لە 3MB",
+      "file": "فایل",
+      "files": "فایلەکان",
+      "uploading": "لە بارکردندایە...",
+      "upload": "بارکردن",
+      "cancel": "هەڵوەشاندنەوە",
+      "error": "هەڵە لە بارکردندا",
+      "success": "بارکردن سەرکەوتوو بوو",
+      "maxFilesError": "دەتوانیت لانی زۆر {maxFiles} فایل باربکەیت"
+    }
+  },
+  "mainPage": {
+    "welcomeMessage": "کاتتان باش {dayTime} بەکارهێنەر",
+    "welcomeMessageWithName": "کاتتان باش {dayTime} {fullname}",
+    "greeting": "بەخێربێیتەوە بۆ سیستەمی بەڕێوەبردنی شارەکەت",
+    "button": "دەستپێبکە",
+    "morning": "بەیانی",
+    "afternoon": "نیوەڕۆ",
+    "night": "شەو",
+    "support": "پەیوەندی بە پشتیوانییەوە بکە"
+  },
+  "pwaInstallPrompt": {
+    "title": "دامەزراندنی ئەپ",
+    "description": "بۆ ئەزموونێکی باشتر، بیخەرە سەر شاشەی سەرەکی.",
+    "action": "دامەزراندن"
+  },
+  "navigation": {
+    "admins": {
+      "manageAdmins": "بەڕێوەبردنی ئەدمینەکان",
+      "rolesPermissions": "ڕۆڵەکان و مۆڵەتەکان"
+    },
+    "home": "ماڵەوە",
+    "dashboard": "داشبۆرد",
+    "settings": "ڕێکخستنەکان",
+    "profile": "پڕۆفایل",
+    "logout": "چوونەدەرەوە",
+    "loggingOut": "لە چوونەدەرەوەدایە..."
+  },
+  "sidebar": {
+    "appName": "شاری پەیوەندیدار",
+    "groups": {
+      "dashboard": "داشبۆرد",
+      "surveillance": "چاودێری",
+      "operations": "کارگێڕی",
+      "citizens": "هاوڵاتیان",
+      "guests": "میوانان",
+      "hr": "سەرچاوە مرۆییەکان",
+      "housing": "نیشتەجێبوون",
+      "contractsFinance": "گرێبەستەکان و دارایی",
+      "financial": "دارایی",
+      "vehicles": "ئۆتۆمبێلەکان",
+      "businesses": "کاسبییەکان",
+      "services": "خزمەتگوزارییەکان",
+      "definitions": "Definitions",
+      "settings": "ڕێکخستنەکان",
+      "documents": "بەڵگەنامەکان"
+    },
+    "items": {
+      "home": "ماڵەوە",
+      "services": "خزمەتگوزارییەکان",
+      "definitions": "Definitions",
+      "serviceBundles": "پاکێجەکانی خزمەتگوزاری",
+      "serviceDefinitions": "پێناسەکانی خزمەتگوزاری",
+      "unitDefinitions": "Unit Definitions",
+      "analytics": "شیکارییەکان",
+      "reports": "ڕاپۆرتەکان",
+      "contractReports": "ڕاپۆرتەکانی گرێبەست",
+      "housingReports": "ڕاپۆرتەکانی نیشتەجێبوون",
+      "financialReports": "ڕاپۆرتە داراییەکان",
+      "ticketReports": "ڕاپۆرتەکانی تیکێت",
+      "usersReports": "ڕاپۆرتەکانی بەکارهێنەران",
+      "users": "بەکارهێنەران",
+      "blocks": "بلۆکەکان",
+      "familyMembers": "ئەندامانی خێزان",
+      "rolesPermissions": "ڕۆڵەکان و مۆڵەتەکان",
+      "maps": "نەخشەکان",
+      "liveSurveillance": "چاودێری ڕاستەوخۆ",
+      "gatesAndCameras": "دەرگاکان و کامێراکان",
+      "banners": "بانەرەکان",
+      "notifications": "ئاگادارییەکان",
+      "addresses": "ناونیشانەکان",
+      "sectors": "کەرتەکان",
+      "buildings": "باڵەخانەکان",
+      "houses": "ماڵەکان",
+      "floors": "نهۆمەکان",
+      "units": "یەکەکان",
+      "unitTypes": "جۆرەکانی یەکە",
+      "contracts": "گرێبەستەکان",
+      "rentContracts": "گرێبەستەکانی کرێ",
+      "ownershipContracts": "گرێبەستەکانی خاوەندارێتی",
+      "installmentContracts": "گرێبەستەکانی قیست",
+      "accounting": "بەشی ژمێریاری",
+      "ledger": "لەدجەر",
+      "accounts": "هەژمارەکان",
+      "statistics": "ئامارەکان",
+      "exchangeRates": "نرخی ئاڵوگۆڕ",
+      "invoices": "وەسڵەکان",
+      "payments": "پارەدانەکان",
+      "crm": "CRM",
+      "billing": "فاکتورەکان و پارەدان",
+      "companies": "کۆمپانیاکان",
+      "contacts": "پەیوەندییەکان",
+      "companyDebts": "قەرزەکانی کۆمپانیا",
+      "companyPayments": "پارەدانەکانی کۆمپانیا",
+      "hr": "سەرچاوە مرۆییەکان",
+      "employees": "کارمەندان",
+      "departments": "بەشەکان",
+      "salaries": "مووچەکان",
+      "employeePayments": "پارەدانی کارمەندان",
+      "vehicles": "ئۆتۆمبێلەکان",
+      "businesses": "کاسبییەکان",
+      "tickets": "تیکێتەکان",
+      "auditLogs": "تۆمارەکانی وردبینی",
+      "systemSettings": "ڕێکخستنەکانی سیستەم",
+      "housing": "نیشتەجێبوون",
+      "userDocuments": "بەڵگەنامەکانی بەکارهێنەر",
+      "businessDocuments": "بەڵگەنامەکانی کاسبی",
+      "adminsRoles": "ئەدمینەکان و ڕۆڵەکان",
+      "admins": "ئەدمینەکان",
+      "guests": "میوانان"
+    }
+  },
+  "admins": {
+    "title": "ئەدمینەکان",
+    "description": "بەڕێوەبردنی ئەدمینەکان لە سیستەمەکەدا",
+    "button": "زیادکردنی ئەدمین",
+    "search": {
+      "placeholder": "گەڕان",
+      "validation": {
+        "tooShort": "تکایە لانیکەم 2 پیت بنووسە",
+        "tooLong": "دەقی گەڕان دەبێت 50 پیت یان کەمتر بێت",
+        "invalid": "دەقی گەڕانی نادروست"
+      }
+    },
+    "table": {
+      "columns": {
+        "columns": "ستوونەکان",
+        "fullname": "ناوی تەواو",
+        "email": "ئیمەیڵ",
+        "role": "ڕۆڵ",
+        "isActive": "بارودۆخ",
+        "actions": "کردارەکان"
+      },
+      "placeholders": {
+        "empty": {
+          "title": "هیچ ئەدمینێک نەدۆزرایەوە",
+          "description": "گەڕانەکەت بگۆڕە."
+        },
+        "error": {
+          "title": "بارکردنی ئەدمینەکان سەرکەوتوو نەبوو",
+          "description": "تکایە دووبارە هەوڵ بدەوە."
+        }
+      },
+      "actions": {
+        "edit": "دەستکاریکردنی ئەدمین",
+        "activate": "کاراکردنەوەی ئەدمین",
+        "deactivate": "ناچالاککردنەوەی ئەدمین",
+        "activating": "لە کاراکردنەوەدایە...",
+        "deactivating": "لە ناچالاککردنەوەدایە..."
+      }
+    },
+    "status": {
+      "active": "کارا",
+      "inactive": "ناکارا"
+    },
+    "actions": {
+      "changePassword": "گۆڕینی وشەی نهێنی"
+    },
+    "dialogs": {
+      "delete": {
+        "title": "سڕینەوەی ئەدمین",
+        "description": "سڕینەوەی {fullname} بە شێوەیەکی هەمیشەیی هەژماری ئەدمینەکەی لادەبات.",
+        "warning": "ئەم ئەدمینە دەستبەجێ دەستگەیشتنی بە داشبۆردەکە لەدەست دەدات و ناتوانێت جارێکی تر بچێتە ژوورەوە.",
+        "confirmation": {
+          "label": "بنووسە DELETE بۆ پشتڕاستکردنەوە.",
+          "placeholder": "بنووسە DELETE",
+          "token": "DELETE"
+        },
+        "cancel": "هەڵوەشاندنەوە",
+        "submit": "سڕینەوە",
+        "submitting": "لە سڕینەوەدایە..."
+      },
+      "password": {
+        "title": "گۆڕینی وشەی نهێنی بۆ {name}",
+        "description": "وشەیەکی نهێنی نوێ بۆ {email} دابنێ.",
+        "trigger": "گۆڕینی وشەی نهێنی",
+        "input": {
+          "label": "وشەی نهێنی نوێ",
+          "placeholder": "وشەیەکی نهێنی بەهێز بنووسە"
+        },
+        "requirements": {
+          "length": "لانیکەم 8 پیت",
+          "uppercase": "پیتێکی گەورەی تێدا بێت",
+          "number": "ژمارەیەکی تێدا بێت",
+          "symbol": "هێمایەکی تێدا بێت"
+        },
+        "submit": "نوێکردنەوەی وشەی نهێنی",
+        "submitting": "لە نوێکردنەوەدایە..."
+      }
+    },
+    "addSheet": {
+      "title": "زیادکردنی ئەدمین",
+      "description": "دروستکردنی هەژمارێکی ئەدمینی نوێ",
+      "submit": "دروستکردنی ئەدمین",
+      "submitting": "لە دروستکردنی ئەدمیندا...",
+      "toasts": {
+        "success": "ئەدمین بە سەرکەوتوویی دروست کرا",
+        "error": "دروستکردنی ئەدمین سەرکەوتوو نەبوو"
+      },
+      "fields": {
+        "fullName": {
+          "label": "ناوی تەواو",
+          "placeholder": "ناوی تەواو بنووسە"
+        },
+        "email": {
+          "label": "ئیمەیڵ",
+          "placeholder": "ناونیشانی ئیمەیڵ بنووسە"
+        },
+        "phoneNumber": {
+          "label": "ژمارەی تەلەفۆن",
+          "placeholder": "ژمارەی تەلەفۆن بنووسە (ئارەزوومەندانە)"
+        },
+        "password": {
+          "label": "وشەی نهێنی",
+          "placeholder": "وشەی نهێنی پارێزراو بنووسە"
+        },
+        "profilePhoto": {
+          "label": "وێنەی پڕۆفایل"
+        },
+        "isActive": {
+          "label": "کارا",
+          "description": "ڕێگە بدە ئەم ئەدمینە بچێتە ژوورەوە و داشبۆرد بەکاربهێنێت"
+        },
+        "role": {
+          "label": "ڕۆڵ",
+          "placeholder": "ڕۆڵ هەڵبژێرە",
+          "empty": "هیچ ڕۆڵێک نەدۆزرایەوە"
+        }
+      },
+      "validation": {
+        "required": "{field} پێویستە",
+        "minLength": "{field} دەبێت لانیکەم {min} پیت بێت",
+        "maxLength": "{field} دەبێت کەمتر بێت لە {max} پیت",
+        "invalidEmail": "تکایە ناونیشانی ئیمەیڵێکی دروست بنووسە",
+        "password": {
+          "minLength": "وشەی نهێنی دەبێت لانیکەم 8 پیت بێت",
+          "maxLength": "وشەی نهێنی دەبێت کەمتر بێت لە 64 پیت",
+          "uppercase": "وشەی نهێنی دەبێت پیتێکی گەورەی تێدا بێت",
+          "lowercase": "وشەی نهێنی دەبێت پیتێکی بچووکی تێدا بێت",
+          "number": "وشەی نهێنی دەبێت ژمارەیەکی تێدا بێت",
+          "symbol": "وشەی نهێنی دەبێت هێمایەکی تێدا بێت"
+        },
+        "fieldNames": {
+          "fullName": "ناوی تەواو",
+          "email": "ئیمەیڵ",
+          "phoneNumber": "ژمارەی تەلەفۆن",
+          "password": "وشەی نهێنی",
+          "role": "ڕۆڵ"
+        }
+      }
+    },
+    "editSheet": {
+      "title": "دەستکاریکردنی ئەدمین",
+      "description": "نوێکردنەوەی وردەکارییەکانی ئەدمین",
+      "submit": "نوێکردنەوەی ئەدمین",
+      "submitting": "لە نوێکردنەوەی ئەدمیندا...",
+      "trigger": "دەستکاریکردنی ئەدمین"
+    },
+    "toasts": {
+      "delete": {
+        "success": "ئەدمین بە سەرکەوتوویی سڕایەوە",
+        "error": "سڕینەوەی ئەدمین سەرکەوتوو نەبوو"
+      },
+      "update": {
+        "success": "ئەدمین بە سەرکەوتوویی نوێکرایەوە",
+        "error": "نوێکردنەوەی ئەدمین سەرکەوتوو نەبوو"
+      },
+      "status": {
+        "activate": {
+          "success": "ئەدمین بە سەرکەوتوویی کارا کرایەوە",
+          "error": "کاراکردنەوەی ئەدمین سەرکەوتوو نەبوو"
+        },
+        "deactivate": {
+          "success": "ئەدمین بە سەرکەوتوویی ناچالاک کرایەوە",
+          "error": "ناچالاککردنەوەی ئەدمین سەرکەوتوو نەبوو"
+        }
+      },
+      "password": {
+        "success": "وشەی نهێنی بە سەرکەوتوویی نوێکرایەوە",
+        "error": "نوێکردنەوەی وشەی نهێنی سەرکەوتوو نەبوو"
+      }
+    }
+  },
+  "pagination": {
+    "previous": "پێشوو",
+    "next": "دواتر",
+    "page": "لاپەڕە",
+    "of": "لە",
+    "total": "کۆی گشتی"
+  },
+  "auth": {
+    "login": {
+      "title": "بەخێربێیتەوە!",
+      "description": "بچۆ ژوورەوە بۆ سیستەمەکەت بۆ بەردەوامبوون",
+      "submit": "چوونەژوورەوە",
+      "dontHaveAccount": "هەژمارت نییە؟",
+      "signUp": "خۆت تۆمار بکە",
+      "byClickingContinue": "بە کلیککردن لەسەر بەردەوامبوون، تۆ ڕازیت لەسەر",
+      "termsOfService": "مەرجەکانی خزمەتگوزاری",
+      "and": "و",
+      "privacyPolicy": "سیاسەتی تایبەتمەندێتی",
+      "emailPlaceholder": "m@example.com",
+      "email": "ئیمەیڵ",
+      "password": "وشەی نهێنی",
+      "loadingText": "لە چوونەژوورەوەدایە...",
+      "emailRequired": "ئیمەیڵ پێویستە",
+      "emailInvalid": "ناونیشانی ئیمەیڵی نادروست",
+      "passwordRequired": "وشەی نهێنی پێویستە",
+      "passwordInvalid": "وشەی نهێنی نادروست",
+      "passwordMinLength": "وشەی نهێنی دەبێت لانیکەم {minLength} پیت بێت",
+      "error": "تکایە ئیمەیڵ و وشەی نهێنییەکەت بپشکنە",
+      "logout": "چوونەدەرەوە",
+      "loggingOut": "لە چوونەدەرەوەدایە..."
+    },
+    "disabledAccount": {
+      "title": "هەژمارەکەت ناچالاک کراوە",
+      "description": "هەژمارەکەت ناچالاک کراوە و ئیتر ناتوانیت بچیتە ناو داشبۆردەوە.\nئەگەر پێت وایە ئەم کارە بە هەڵە جێبەجێ کراوە، تکایە پەیوەندی بە تیمی پاڵپشتی بکە بۆ چالاککردنەوەی هەژمارەکەت.",
+      "warning": "دەستڕاگەیشتن ڕەت کرایەوە: هەژمارەکەت ناچالاکە.",
+      "backToLogin": "گەڕانەوە بۆ چوونەژوورەوە",
+      "redirecting": "لە گواستنەوەدایە..."
+    }
+  },
+  "roles": {
+    "page": {
+      "title": "ڕۆڵەکان و مۆڵەتەکان",
+      "description": "بەڕێوەبردنی ڕۆڵەکانی سیستەم و پشتیوانی مۆڵەتەکانی پلان"
+    },
+    "tabs": {
+      "roles": "ڕۆڵەکان",
+      "permissions": "مۆڵەتەکان"
+    },
+    "list": {
+      "title": "ڕۆڵە هەبووەکان",
+      "empty": "تا ئێستا هیچ ڕۆڵێک دروست نەکراوە",
+      "error": "هەڵە لە بارکردنی ڕۆڵەکان",
+      "admins": "ئەدمین(ەکان)",
+      "actions": {
+        "edit": "گۆڕینی ناوی ڕۆڵ",
+        "delete": "سڕینەوەی ڕۆڵ"
+      }
+    },
+    "create": {
+      "button": "زیادکردنی ڕۆڵ",
+      "dialog": {
+        "title": "دروستکردنی ڕۆڵێکی نوێ",
+        "description": "ڕۆڵەکان کۆنترۆڵی ئەوە دەکەن کە ئەدمینەکان دەتوانن دەستیان بە چ بەشێکی سیستەمەکە بگات.",
+        "nameLabel": "ناوی ڕۆڵ",
+        "namePlaceholder": "ناوی ڕۆڵ بنووسە",
+        "submit": "دروستکردنی ڕۆڵ",
+        "submitting": "لە دروستکردندایە...",
+        "cancel": "هەڵوەشاندنەوە"
+      }
+    },
+    "assignPermissions": {
+      "button": "تەرخانکردنی مۆڵەتەکان",
+      "dialog": {
+        "title": "تەرخانکردنی مۆڵەتەکان",
+        "description": "مۆڵەتەکان بۆ ڕۆڵەکە تەرخان بکە.",
+        "submit": "پاشەکەوتکردنی مۆڵەتەکان",
+        "submitting": "لە پاشەکەوتکردندایە...",
+        "cancel": "هەڵوەشاندنەوە",
+        "error": "شکست هێنا لە بارکردنی مۆڵەتەکان",
+        "empty": "هیچ مۆڵەتێک بەردەست نییە"
+      },
+      "permissions": {
+        "selectAll": "هەموو هەڵبژێرە",
+        "selectAllPermissions": "هەموو مۆڵەتەکان هەڵبژێرە",
+        "actions": {
+          "read": "بینین و خوێندنەوەی داتا",
+          "write": "دروستکردن و دەستکاریکردنی داتا",
+          "delete": "لابردن و سڕینەوەی داتا"
+        },
+        "resources": {
+          "accounting": "ژمێریاری",
+          "user": "بەکارهێنەر",
+          "admin": "ئەدمین",
+          "banner": "بانەر",
+          "family": "خێزان",
+          "category": "پۆل",
+          "sector": "کەرت",
+          "building": "باڵەخانە",
+          "floor": "نهۆم",
+          "block": "بلۆک",
+          "address": "ناونیشان",
+          "unit": "یەکە",
+          "camera": "کامێرا",
+          "contract": "گرێبەست",
+          "company": "کۆمپانیا",
+          "contact": "پەیوەندی",
+          "department": "بەش",
+          "departmentmember": "ئەندامی بەش",
+          "employee": "کارمەند",
+          "exchangerate": "نرخی گۆڕانکاری",
+          "guest": "میوان",
+          "rentcontract": "گرێبەستی کرێ",
+          "ownershipcontract": "گرێبەستی خاوەندارێتی",
+          "installmentcontract": "گرێبەستی قیست",
+          "invoice": "پسوڵە",
+          "map": "نەخشە",
+          "payment": "پارەدان",
+          "salary": "مووچە",
+          "salarypayment": "پارەدانی مووچە",
+          "ticket": "تیکێت",
+          "service": "خزمەتگوزاری",
+          "notification": "ئاگاداری",
+          "business": "کاسبی",
+          "transaction": "مامەڵە",
+          "transfer": "گواستنەوە",
+          "wallet": "جزدان",
+          "vehicle": "ئۆتۆمبێل",
+          "file": "فایل",
+          "documents": "بەڵگەنامەکان",
+          "config": "ڕێکخستن",
+          "preferences": "دڵخوازیەکان",
+          "auditlog": "لۆگی چاودێری"
+        }
+      }
+    },
+    "edit": {
+      "dialog": {
+        "title": "گۆڕینی ناوی ڕۆڵ",
+        "description": "ناوی ڕۆڵەکە نوێ بکەرەوە.",
+        "submit": "نوێکردنەوەی ڕۆڵ",
+        "submitting": "لە نوێکردنەوەدایە..."
+      }
+    },
+    "delete": {
+      "dialog": {
+        "title": "سڕینەوەی ڕۆڵ",
+        "description": "ئەمە بە شێوەیەکی هەمیشەیی ڕۆڵی {name} لادەبات.",
+        "warning": "ئەگەر ئەدمینەکان بەم ڕۆڵە تەرخان کرابن، ئەوا دەستگەیشتنیان بە سیستەمەکە لەدەست دەدەن و ناتوانن جارێکی تر بەکاری بهێنن.",
+        "cancel": "هەڵوەشاندنەوە",
+        "submit": "سڕینەوەی ڕۆڵ",
+        "submitting": "لە سڕینەوەدایە...",
+        "confirmation": {
+          "token": "DELETE",
+          "label": "بنووسە DELETE بۆ پشتڕاستکردنەوە",
+          "placeholder": "بنووسە DELETE بۆ پشتڕاستکردنەوە"
+        }
+      }
+    },
+    "validation": {
+      "nameRequired": "ناوی ڕۆڵ پێویستە",
+      "nameMin": "ناوی ڕۆڵ دەبێت لانیکەم 2 پیت بێت",
+      "nameMax": "ناوی ڕۆڵ دەبێت کەمتر بێت لە 50 پیت",
+      "fieldNames": {
+        "role": "ناوی ڕۆڵ"
+      }
+    },
+    "toasts": {
+      "createSuccess": "ڕۆڵ بە سەرکەوتوویی دروست کرا",
+      "createError": "دروستکردنی ڕۆڵ سەرکەوتوو نەبوو",
+      "updateSuccess": "ڕۆڵ بە سەرکەوتوویی نوێکرایەوە",
+      "updateError": "نوێکردنەوەی ڕۆڵ سەرکەوتوو نەبوو",
+      "updatePermissionsSuccess": "مۆڵەتەکان بە سەرکەوتوویی نوێکرانەوە",
+      "updatePermissionsError": "نوێکردنەوەی مۆڵەتەکان سەرکەوتوو نەبوو",
+      "deleteSuccess": "ڕۆڵ بە سەرکەوتوویی سڕایەوە",
+      "deleteError": "سڕینەوەی ڕۆڵ سەرکەوتوو نەبوو"
+    }
+  },
+  "settings": {
+    "title": "ڕێکخستنەکانی سیستەم",
+    "description": "ڕێکخستنی پەسەندکراوەکان و کۆنفێگڕەیشنی سیستەمەکەت",
+    "tabs": {
+      "appearance": {
+        "title": "ڕووکەش",
+        "description": "ڕێکخستنی ڕووکەشی بینراوی داشبۆردەکەت",
+        "theme": {
+          "label": "تێم",
+          "description": "تێمی ڕەنگی پەسەندکراوت هەڵبژێرە",
+          "light": "ڕووناک",
+          "dark": "تاریک",
+          "system": "سیستەم"
+        },
+        "sidebarStyle": {
+          "label": "شێوازی باری لایەنی",
+          "description": "شێوازی ڕێکخستنی باری لایەنی پەسەندکراوت هەڵبژێرە",
+          "sidebar": "باری لایەنی",
+          "floating": "سەرئاو",
+          "inset": "ناردراو"
+        }
+      },
+      "language": {
+        "title": "زمان",
+        "description": "بەڕێوەبردنی پەسەندکراوەکانت بۆ زمان و ناوچەیی",
+        "preferredLanguage": {
+          "label": "زمانی پەسەندکراو",
+          "description": "زمانی پەسەندکراوت بۆ ڕووکارەکە هەڵبژێرە"
+        }
+      },
+      "notifications": {
+        "title": "ئاگادارییەکان",
+        "description": "بینین و بەڕێوەبردنی ئاگادارییەکانت",
+        "sound": {
+          "label": "دەنگی ئاگاداری",
+          "description": "ئەو دەنگە هەڵبژێرە کە لێدەدرێت کاتێک ئاگادارییەکی نوێ وەردەگریت",
+          "selected": "دەنگی {number}",
+          "clickToChange": "کلیک بکە بۆ گۆڕینی دەنگ",
+          "modal": {
+            "title": "هەڵبژاردنی دەنگی ئاگاداری",
+            "description": "دەنگێک هەڵبژێرە کە لێدەدرێت کاتێک ئاگادارییەکی نوێ وەردەگریت. کلیک لەسەر هەر دەنگێک بکە بۆ تاقیکردنەوەی.",
+            "save": "پاشەکەوتکردن",
+            "cancel": "هەڵوەشاندنەوە"
+          }
+        },
+        "notificationChannels": {
+          "label": "کەناڵەکانی ئاگاداری",
+          "description": "بەڕێوەبردنی پەسەندکراوەکانی ئاگاداریت"
+        },
+        "types": {
+          "email": {
+            "label": "ئاگادارییەکانی ئیمەیڵ",
+            "description": "وەرگرتنی ئاگادارییەکان لە ڕێگەی ئیمەیڵەوە"
+          },
+          "push": {
+            "label": "ئاگادارییەکانی پاڵنان (Push)",
+            "description": "وەرگرتنی ئاگادارییەکانی پاڵنان لە وێبگەڕەکەتدا"
+          },
+          "sms": {
+            "label": "ئاگادارییەکانی نامە (SMS)",
+            "description": "وەرگرتنی ئاگادارییەکان لە ڕێگەی نامەوە"
+          }
+        }
+      },
+      "general": {
+        "title": "گشتی",
+        "description": "ڕێکخستنەکان و پەسەندکراوەکانی گشتی سیستەم",
+        "items": {
+          "timezone": {
+            "label": "ناوچەی کاتی",
+            "description": "ناوچەی کاتی پەسەندکراوت دابنێ"
+          },
+          "dataRetention": {
+            "label": "پاراستنی داتا",
+            "description": "ڕێکخستنی ماوەی مانەوەی داتا لە سیستەمەکەدا"
+          },
+          "security": {
+            "label": "ئاسایش",
+            "description": "بەڕێوەبردنی ڕێکخستنەکانی ئاسایش"
+          }
+        }
+      },
+      "cityInfo": {
+        "title": "زانیاری شار",
+        "description": "بینینی زانیارییەکانی شار و نوێکردنەوەی ناوەڕۆکی ناسنامەی بینراو",
+        "save": "پاشەکەوتکردنی گۆڕانکارییەکان",
+        "saving": "لە پاشەکەوتکردندایە...",
+        "saved": "زانیارییەکانی شار بە سەرکەوتوویی نوێکرانەوە",
+        "error": "نوێکردنەوەی زانیارییەکانی شار سەرکەوتوو نەبوو",
+        "noChanges": "هیچ گۆڕانکارییەک نییە بۆ پاشەکەوتکردن",
+        "readOnly": "تۆ تەنها مافی بینینت هەیە. دەتوانیت زانیارییەکانی شار ببینیت بەڵام ناتوانیت دەستکاری بکەیت.",
+        "fields": {
+          "name": {
+            "label": "ناوی شار"
+          },
+          "description": {
+            "label": "وەسفکردن",
+            "placeholder": "وەسفکردنی شار بنووسە"
+          },
+          "logo": {
+            "label": "لۆگۆی شار"
+          },
+          "banner": {
+            "label": "بانەری شار"
+          }
+        },
+        "placeholders": {
+          "loading": "لە بارکردنی زانیارییەکانی شاردایە...",
+          "error": "شکستی هێنا لە بارکردنی زانیارییەکانی شار",
+          "empty": "هیچ زانیارییەکی شار نەدۆزرایەوە"
+        }
+      },
+      "systemConfig": {
+        "title": "ڕێکخستنی سیستەم",
+        "description": "بەڕێوەبردنی ڕێکخستنەکانی سیستەم",
+        "save": "پاشەکەوتکردنی گۆڕانکارییەکان",
+        "saving": "لە پاشەکەوتکردندایە...",
+        "saved": "گۆڕانکارییەکان بە سەرکەوتوویی پاشەکەوت کراون",
+        "error": "شکستی هێنا لە پاشەکەوتکردنی گۆڕانکارییەکان",
+        "noChanges": "هیچ گۆڕانکارییەک نییە بۆ پاشەکەوتکردن",
+        "configs": {
+          "default-currency": {
+            "title": "دراوی بنەڕەتی",
+            "description": "ئەمە دراوی بنەڕەتی سیستەمە و وەک دراوی بنەڕەت بۆ ژمێریاری بەکاردێت."
+          },
+          "primary-service-operational": {
+            "title": "خزمەتگوزاری سەرەکی کاردەکات",
+            "description": "چالاککردن یان ناچالاککردنی خزمەتگوزاری سەرەکی"
+          },
+          "mobile-service-operational": {
+            "title": "خزمەتگوزاری مۆبایل کاردەکات",
+            "description": "چالاککردن یان ناچالاککردنی خزمەتگوزاری مۆبایل"
+          },
+          "penalty-applied": {
+            "title": "سزای جێبەجێکراو",
+            "description": "چالاککردن یان ناچالاککردنی جێبەجێکردنی سزا"
+          },
+          "fastpay-enabled": {
+            "title": "FastPay چالاکە",
+            "description": "چالاککردن یان ناچالاککردنی پارەدانەکانی FastPay"
+          },
+          "fastpay-store-id": {
+            "title": "ناسنامەی فرۆشگای FastPay",
+            "description": "ناسنامەی فرۆشگای FastPay تۆ بنووسە",
+            "placeholder": "ناسنامەی فرۆشگا بنووسە"
+          },
+          "fastpay-store-password": {
+            "title": "تێپەڕەوشەی فرۆشگای FastPay",
+            "description": "تێپەڕەوشەی فرۆشگای FastPay تۆ بنووسە",
+            "placeholder": "تێپەڕەوشەی فرۆشگا بنووسە"
+          }
+        },
+        "validation": {
+          "storeIdRequired": "ناسنامەی فرۆشگا پێویستە کاتێک FastPay چالاکە",
+          "passwordRequired": "تێپەڕەوشەی فرۆشگا پێویستە کاتێک FastPay چالاکە"
+        },
+        "placeholders": {
+          "loading": "لە بارکردنی ڕێکخستنەکاندایە...",
+          "error": "شکستی هێنا لە بارکردنی ڕێکخستنەکان",
+          "empty": "هیچ ڕێکخستنێک نەدۆزرایەوە"
+        }
+      },
+      "account": {
+        "title": "هەژمار",
+        "description": "بەڕێوەبردنی زانیاری و پەسەندکراوەکانی هەژمارەکەت",
+        "accountInformation": {
+          "label": "زانیاری هەژمار"
+        },
+        "info": {
+          "fullName": {
+            "label": "ناوی تەواو"
+          },
+          "email": {
+            "label": "ئیمەیڵ"
+          },
+          "memberSince": {
+            "label": "ئەندام لەوەتەی"
+          },
+          "role": {
+            "label": "ڕۆڵ"
+          }
+        }
+      }
+    }
+  },
+  "adminNotifications": {
+    "title": "ئاگاداریەکان",
+    "viewAll": "بینینی هەموو",
+    "empty": "هیچ ئاگاداریەک نییە",
+    "error": "سەرکەوتوو نەبوو لە بارکردنی ئاگاداریەکان",
+    "card": {
+      "newNotificationFrom": "ئاگاداری نوێ لە {name}"
+    },
+    "types": {
+      "TICKET": "تیکێت",
+      "PAYMENT": "پارەدان"
+    },
+    "actions": {
+      "CREATE": "دروستکرا",
+      "UPDATE": "نوێکرایەوە",
+      "DELETE": "سڕایەوە"
+    },
+    "dialog": {
+      "title": "وردەکاریەکانی ئاگاداری",
+      "description": "بینینی وردەکاریەکانی تەواوی ئەم ئاگاداریە",
+      "message": "{name} {action} {type}"
+    },
+    "toast": {
+      "actions": {
+        "CREATE": "دروستکرا",
+        "UPDATE": "نوێکرایەوە",
+        "DELETE": "سڕایەوە"
+      },
+      "types": {
+        "TICKET": "تیکێت",
+        "PAYMENT": "پارەدان",
+        "ACCOUNT": "هەژمار",
+        "OTHER": "ئاگاداری"
+      },
+      "message": "{name} {action} {type}",
+      "open": "کردنەوە"
+    }
+  },
+  "home": {
+    "title": "ماڵەوە",
+    "description": "بەخێربێیت بۆ داشبۆردەکەت",
+    "welcome": {
+      "greeting": "کاتتان باش {dayTime}، {name}",
+      "role": "ڕۆڵ: {role}",
+      "viewProfile": "بینینی پڕۆفایل",
+      "openSettings": "کردنەوەی ڕێکخستنەکان"
+    },
+    "recentActivity": {
+      "title": "چالاکی دوایین",
+      "empty": "هیچ چالاکییەکی دوایین نییە",
+      "emptyDescription": "دەست بکە بە گەڕان بۆ بینینی پەڕە دوایینەکانت لێرە",
+      "clear": "پاککردنەوە",
+      "confirmClear": "کلیک بکەرەوە"
+    },
+    "recentNotifications": {
+      "title": "ئاگادارییە دوایینەکان",
+      "viewAll": "بینینی هەموو",
+      "empty": "هیچ ئاگادارییەک نییە",
+      "emptyDescription": "تۆ هەموو شتێکت بینیوە!",
+      "error": "هەڵە لە بارکردنی ئاگادارییەکان"
+    },
+    "bookmarks": {
+      "add": "زیادکردن بۆ نیشانەکان",
+      "remove": "لابردن لە نیشانەکان"
+    },
+    "favoritePages": {
+      "title": "پەڕە دڵخوازەکان",
+      "empty": "هیچ پەڕەیەکی نیشانەکراو نییە",
+      "emptyDescription": "هەوڵ بدە هەندێکیان زیاد بکەیت بە بردنە سەری ئاڕاستەکان و کلیککردن لەسەر ئایکۆنی ئەستێرە",
+      "remove": "لابردن"
+    },
+    "systemStatus": {
+      "title": "دۆخی سیستەم",
+      "operational": "کارا",
+      "maintenance": "چاککردنەوە",
+      "alert": "ئاگاداری",
+      "info": "زانیاری",
+      "systemHealth": {
+        "title": "هەموو سیستەمەکان کاران",
+        "description": "هەموو خزمەتگوزارییەکان بە ئاسایی کار دەکەن"
+      },
+      "apiStatus": {
+        "title": "خزمەتگوزارییەکانی API",
+        "description": "کاتی وەڵامدانەوە: 120ms ناوەند"
+      },
+      "databaseStatus": {
+        "title": "داتابەیس",
+        "description": "پەیوەندییەکان: 45/50 کارا"
+      }
+    },
+    "quickStats": {
+      "title": "ئاماری خێرا",
+      "error": "هەڵە لە بارکردنی ئامارەکان",
+      "empty": "هیچ تیکێتێک نەدۆزرایەوە",
+      "emptyDescription": "تۆ هێشتا هیچ تیکێتێکت نییە",
+      "tickets": {
+        "total": "کۆی گشتی تیکێتەکان",
+        "pending": "چاوەڕوان",
+        "inProgress": "لە جێبەجێکردندایە",
+        "completed": "تەواوکراو",
+        "viewAll": "بینینی هەموو تیکێتەکان"
+      }
+    },
+    "helpSupport": {
+      "title": "یارمەتی و پشتیوانی",
+      "documentation": "بەڵگەنامەکان",
+      "contactSupport": "پەیوەندی بە پشتیوانییەوە بکە",
+      "faq": "پرسیارە دووبارەکان",
+      "tutorials": "فێرکارییە ڤیدیۆییەکان"
+    },
+    "performanceMetrics": {
+      "title": "پێوەرەکانی ئەدای کار",
+      "systemHealth": "تەندروستی سیستەم",
+      "apiResponse": "کاتی وەڵامدانەوەی API",
+      "activeUsers": "بەکارهێنەرە کاراکان",
+      "database": "دۆخی داتابەیس",
+      "good": "باش",
+      "warning": "ئاگاداری",
+      "critical": "مەترسیدار"
+    }
+  },
+  "errorCodes": {
+    "NOTIFICATION_NOT_FOUND": "Notification not found",
+    "AUTH_UNAUTHORIZED": "You are not authorized to perform this action.",
+    "AUTH_FORBIDDEN": "Access to this resource is forbidden.",
+    "USER_ROLE_NOT_ALLOWED": "Your user role does not have permission for this action.",
+    "AUTH_TOKEN_EXPIRED": "Your session has expired. Please log in again.",
+    "AUTH_TOKEN_INVALID": "Invalid session token. Please log in again.",
+    "VALIDATION_ERROR": "A validation error occurred.",
+    "VALIDATION_REQUIRED_FIELD": "A required field is missing.",
+    "VALIDATION_INVALID_FORMAT": "The data format is invalid.",
+    "VALIDATION_OUT_OF_RANGE": "The value is out of the allowed range.",
+    "SECTOR_NOT_FOUND": "Sector not found.",
+    "SECTOR_DUPLICATE_NAME": "A sector with this name already exists.",
+    "SECTOR_HAS_ACTIVE_BUILDINGS": "Cannot delete sector because it has active buildings.",
+    "BUILDING_NOT_FOUND": "Building not found.",
+    "BUILDING_DUPLICATE_CODE": "A building with this code already exists.",
+    "BUILDING_DUPLICATE_NAME": "A building with this name already exists.",
+    "BUILDING_HAS_ACTIVE_UNITS": "Cannot delete building because it has active units.",
+    "UNIT_NOT_FOUND": "Unit not found.",
+    "UNIT_DUPLICATE_NUMBER": "A unit with this number already exists.",
+    "UNIT_OCCUPIED": "This unit is currently occupied.",
+    "UNIT_ALREADY_OWNED": "This unit is already owned by someone.",
+    "USER_NOT_FOUND": "User not found.",
+    "USER_EMAIL_ALREADY_EXISTS": "A user with this email address already exists.",
+    "USER_PHONE_ALREADY_EXISTS": "A user with this phone number already exists.",
+    "USER_IS_DEACTIVATED": "This user account has been deactivated.",
+    "DOCUMENT_NOT_FOUND": "Document not found.",
+    "DOCUMENT_DUPLICATE_REFERENCE": "A document with this reference number already exists.",
+    "CONTRACT_NOT_FOUND": "Contract not found.",
+    "CONTRACT_ALREADY_ACTIVE": "An active contract already exists.",
+    "CONTRACT_DUPLICATE": "A duplicate contract exists.",
+    "INVOICE_NOT_FOUND": "Invoice not found.",
+    "INVOICE_ALREADY_PAID": "This invoice has already been paid.",
+    "INVOICE_CANCELLED": "This invoice has been cancelled.",
+    "PAYMENT_NOT_FOUND": "Payment record not found.",
+    "PAYMENT_AMOUNT_EXCEEDS_BALANCE": "The payment amount exceeds the outstanding balance.",
+    "PAYMENT_FAILED": "Payment processing failed. Please try again.",
+    "TICKET_NOT_FOUND": "Ticket not found.",
+    "CAMERA_NOT_FOUND": "Camera not found.",
+    "GATE_NOT_FOUND": "Gate not found.",
+    "CAMERA_DUPLICATE_NAME": "A camera with this name already exists.",
+    "VEHICLE_NOT_FOUND": "Vehicle not found.",
+    "VEHICLE_DUPLICATE_PLATE": "A vehicle with this license plate already exists.",
+    "VEHICLE_ALREADY_REGISTERED": "This vehicle is already registered.",
+    "INTERNAL_SERVER_ERROR": "An internal server error occurred. Please try again later.",
+    "DATABASE_ERROR": "A database error occurred.",
+    "RESOURCE_NOT_FOUND": "The requested resource was not found."
+  }
+}
